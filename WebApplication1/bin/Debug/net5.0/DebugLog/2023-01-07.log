@@ -1,0 +1,640 @@
+2023-01-07 11:29:45.8209||1||Trace||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:45.8651||1||Debug||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9123||1||Info||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Warn||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Error||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Fatal||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:48.7479||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 11:29:51.0673||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:29:51.0719||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 11:30:20.6107||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:30:20.6107||4||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 11:30:20.6198||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:30:20.6198||4||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 11:32:28.0524||1||Trace||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:28.0850||1||Debug||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1724||1||Info||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Warn||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Error||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Fatal||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.9908||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 11:32:33.2846||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:32:33.2846||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:32:33.2893||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 11:33:00.9535||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5005/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:33:00.9535||7||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 11:33:00.9535||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5005/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:33:00.9616||7||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 11:35:57.9737||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 11:36:00.3443||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:36:00.3443||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:36:00.3545||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 11:57:51.9750||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 11:57:54.3965||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:57:54.4070||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:57:54.4070||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:57:54.4146||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:57:54.4146||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:57:54.4146||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 11:58:32.8845||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:58:32.8845||8||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 11:58:32.8845||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:58:32.8845||8||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:22:32.0386||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 13:22:34.3926||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:22:34.4007||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 13:23:39.7714||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 13:23:42.1395||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:23:42.1395||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:23:42.1505||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 13:25:08.5591||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:25:10.9146||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:25:10.9146||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:25:10.9146||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 13:26:09.9594||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:26:12.1175||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 13:29:12.2531||2||Info||Microsoft.Hosting.Lifetime||Application is shutting down...||||end
+2023-01-07 13:29:12.2531||16||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting stopping||||end
+2023-01-07 13:29:14.3049||18||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting stopped||||end
+2023-01-07 13:33:31.3320||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2023-01-07 13:33:33.6564||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:33:33.6564||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:33:33.6640||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end
+2023-01-07 13:39:41.8850||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:41.8850||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:39:41.8850||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:41.8850||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:39:46.5462||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4648.0438ms - 200||||end
+2023-01-07 13:39:46.5462||31||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:39:46 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:39:46.5462||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4672.5759ms - 200||||end
+2023-01-07 13:39:46.5462||31||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:39:46 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:39:59.5323||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:59.5323||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:39:59.5323||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:59.5323||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:04.6068||35||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 5070.8313ms - 200||||end
+2023-01-07 13:40:04.6068||35||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:04 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:04.6068||35||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 5078.0266ms - 200||||end
+2023-01-07 13:40:04.6068||35||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:04 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:17.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:17.7508||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:17.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:17.7508||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:19.8001||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2042.9401ms - 200||||end
+2023-01-07 13:40:19.8001||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:19 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:19.8052||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2054.3578ms - 200||||end
+2023-01-07 13:40:19.8052||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:19 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:27.9637||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:27.9637||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:27.9637||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:27.9637||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:30.0169||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2048.3616ms - 200||||end
+2023-01-07 13:40:30.0169||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:29 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:30.0169||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2058.2718ms - 200||||end
+2023-01-07 13:40:30.0169||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:29 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:38.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:38.2161||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:38.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:38.2161||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:40.2588||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2051.6485ms - 200||||end
+2023-01-07 13:40:40.2588||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:39 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:40.2761||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.1317ms - 200||||end
+2023-01-07 13:40:40.2761||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:39 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:48.4742||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:48.4742||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:48.4790||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:48.4790||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:50.5285||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.9967ms - 200||||end
+2023-01-07 13:40:50.5285||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:50 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:50.5285||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2057.3144ms - 200||||end
+2023-01-07 13:40:50.5285||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:40:50 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:58.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:58.7508||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:40:58.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:58.7508||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:00.8054||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.7187ms - 200||||end
+2023-01-07 13:41:00.8054||20||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:00 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:00.8054||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.381ms - 200||||end
+2023-01-07 13:41:00.8054||20||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:00 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:08.9698||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:08.9698||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:08.9698||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:08.9698||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:11.0063||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2031.3552ms - 200||||end
+2023-01-07 13:41:11.0063||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:10 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:11.0094||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2039.626ms - 200||||end
+2023-01-07 13:41:11.0094||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:10 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:19.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:19.2161||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:19.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:19.2161||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:23.3063||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4084.8246ms - 200||||end
+2023-01-07 13:41:23.3063||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:22 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:23.3063||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4092.1646ms - 200||||end
+2023-01-07 13:41:23.3063||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:22 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:31.4803||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:31.4803||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:31.4803||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:31.4803||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:35.5931||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4107.9748ms - 200||||end
+2023-01-07 13:41:35.5931||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:35 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:41:35.5931||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4114.5738ms - 200||||end
+2023-01-07 13:41:35.5931||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:41:35 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:24.8504||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:24.8515||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:24.8515||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:24.8515||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:26.9059||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2050.7775ms - 200||||end
+2023-01-07 13:43:26.9059||20||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:26 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:26.9059||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.4826ms - 200||||end
+2023-01-07 13:43:26.9059||20||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:26 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:39.1020||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:39.1020||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:39.1020||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:39.1020||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:41.1608||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2054.9198ms - 200||||end
+2023-01-07 13:43:41.1608||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:40 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:41.1608||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2062.2615ms - 200||||end
+2023-01-07 13:43:41.1608||32||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:40 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:53.4400||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:53.4400||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:53.4400||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:53.4400||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:55.4921||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2060.5173ms - 200||||end
+2023-01-07 13:43:55.4921||31||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:54 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:43:55.5080||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2067.9522ms - 200||||end
+2023-01-07 13:43:55.5080||31||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:43:54 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:07.7114||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:07.7114||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:07.7114||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:07.7114||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:09.7665||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2050.9045ms - 200||||end
+2023-01-07 13:44:09.7665||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:08 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:09.7665||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2061.0696ms - 200||||end
+2023-01-07 13:44:09.7665||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:08 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:20.0437||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:20.0437||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:20.0437||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:20.0437||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:24.1328||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4095.706ms - 200||||end
+2023-01-07 13:44:24.1328||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:23 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:24.1492||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4103.9965ms - 200||||end
+2023-01-07 13:44:24.1492||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:23 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:32.2919||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:32.2919||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:32.2919||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:32.2919||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:36.4096||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4112.0646ms - 200||||end
+2023-01-07 13:44:36.4096||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:36 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:36.4096||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4119.6809ms - 200||||end
+2023-01-07 13:44:36.4096||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:36 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:46.5871||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:46.5871||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:46.5871||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:46.5871||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:48.6376||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2047.0555ms - 200||||end
+2023-01-07 13:44:48.6376||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:48 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:44:48.6376||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2054.0437ms - 200||||end
+2023-01-07 13:44:48.6376||36||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:44:48 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:00.8508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:00.8515||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:00.8515||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:00.8515||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:02.9037||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2048.377ms - 200||||end
+2023-01-07 13:45:02.9037||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:02 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:02.9037||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2056.2225ms - 200||||end
+2023-01-07 13:45:02.9037||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:02 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:15.1645||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:15.1645||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:15.1645||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:15.1645||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:17.2206||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2051.5101ms - 200||||end
+2023-01-07 13:45:17.2278||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:16 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:17.2278||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2066.0833ms - 200||||end
+2023-01-07 13:45:17.2278||30||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:16 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:29.4952||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:29.4952||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:29.4952||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:29.4952||24||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Request Headers:
+User-Agent: grpc-dotnet/2.47.0, (.NET 5.0.17; CLR 5.0.17; net5.0; windows; x64)
+TE: trailers
+grpc-accept-encoding: identity,gzip
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:31.5500||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.9374ms - 200||||end
+2023-01-07 13:45:31.5500||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:30 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end
+2023-01-07 13:45:31.5500||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2058.4877ms - 200||||end
+2023-01-07 13:45:31.5500||33||Trace||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Response Headers:
+Date: Sat, 07 Jan 2023 05:45:30 GMT
+Server: Kestrel
+Content-Type: application/grpc
+||||end

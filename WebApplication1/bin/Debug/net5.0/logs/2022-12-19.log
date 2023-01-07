@@ -1,0 +1,181 @@
+2022-12-19 14:32:11.8937||1||Info||WebApplication1.Program||测试test||||end
+2022-12-19 14:32:11.8937||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-19 14:32:11.8937||1||Error||WebApplication1.Program||测试test||||end
+2022-12-19 14:32:11.8937||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-19 14:32:14.4561||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-19 14:32:14.4561||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-19 14:32:14.4561||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-19 14:32:14.4655||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-19 14:32:14.4655||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-19 14:32:16.2960||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-19 14:32:17.0139||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 722.6538ms||||end
+2022-12-19 14:32:17.0619||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-19 14:32:17.0619||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-19 14:32:17.0619||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.4898ms||||end
+2022-12-19 14:32:17.1537||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 90.6277ms||||end
+2022-12-19 14:32:17.2997||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-19 14:32:17.4279||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.3283ms||||end
+2022-12-19 14:32:24.8835||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2022-12-19 14:32:24.9197||8||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:32:24.9513||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2022-12-19 14:32:25.0919||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2022-12-19 14:32:25.2672||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.2672||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.5792||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 298.4793ms - 200||||end
+2022-12-19 14:32:25.5792||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 325.8268ms - 200||||end
+2022-12-19 14:32:25.6250||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6250||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6599||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 28.1698ms - 200||||end
+2022-12-19 14:32:25.6599||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 33.5964ms - 200||||end
+2022-12-19 14:32:25.6599||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6599||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6688||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 11.8632ms - 200||||end
+2022-12-19 14:32:25.6688||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 16.5835ms - 200||||end
+2022-12-19 14:32:25.6856||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6856||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.6856||9||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 11.1567ms - 200||||end
+2022-12-19 14:32:25.7019||9||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 16.3046ms - 200||||end
+2022-12-19 14:32:25.7235||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.7235||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.7644||18||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 37.3937ms - 200||||end
+2022-12-19 14:32:25.7644||18||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 62.1085ms - 200||||end
+2022-12-19 14:32:25.7644||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.7644||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.7873||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 13.4479ms - 200||||end
+2022-12-19 14:32:25.7873||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 18.6133ms - 200||||end
+2022-12-19 14:32:25.7937||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.7937||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8125||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 15.44ms - 200||||end
+2022-12-19 14:32:25.8125||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 21.5532ms - 200||||end
+2022-12-19 14:32:25.8125||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8125||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8489||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 26.1129ms - 200||||end
+2022-12-19 14:32:25.8489||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 32.7988ms - 200||||end
+2022-12-19 14:32:25.8489||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8564||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8723||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 12.5969ms - 200||||end
+2022-12-19 14:32:25.8723||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 19.6084ms - 200||||end
+2022-12-19 14:32:25.8723||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8723||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:25.8939||19||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 13.056ms - 200||||end
+2022-12-19 14:32:25.8939||19||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 18.0993ms - 200||||end
+2022-12-19 14:32:25.9110||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 816.0046ms.||||end
+2022-12-19 14:32:25.9110||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor||Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.||||end
+2022-12-19 14:32:25.9293||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 974.2669ms||||end
+2022-12-19 14:32:25.9293||8||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:32:25.9293||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - - - 200 - application/json;+charset=utf-8 1049.6290ms||||end
+2022-12-19 14:32:27.6098||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2022-12-19 14:32:27.6098||4||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:32:27.6098||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2022-12-19 14:32:27.6098||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2022-12-19 14:32:27.6098||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.6222||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.6409||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 20.9508ms - 200||||end
+2022-12-19 14:32:27.6409||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 29.192ms - 200||||end
+2022-12-19 14:32:27.6409||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.6409||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.6750||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 21.0793ms - 200||||end
+2022-12-19 14:32:27.6750||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 27.7902ms - 200||||end
+2022-12-19 14:32:27.6853||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.6853||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7090||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 20.3153ms - 200||||end
+2022-12-19 14:32:27.7090||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 28.262ms - 200||||end
+2022-12-19 14:32:27.7090||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7186||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7391||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 14.8146ms - 200||||end
+2022-12-19 14:32:27.7391||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 26.8377ms - 200||||end
+2022-12-19 14:32:27.7475||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7475||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7705||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 18.5111ms - 200||||end
+2022-12-19 14:32:27.7705||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 27.2105ms - 200||||end
+2022-12-19 14:32:27.7705||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7783||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7942||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 14.8728ms - 200||||end
+2022-12-19 14:32:27.7942||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 20.5313ms - 200||||end
+2022-12-19 14:32:27.7942||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.7942||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.8239||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 17.2188ms - 200||||end
+2022-12-19 14:32:27.8269||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 26.1013ms - 200||||end
+2022-12-19 14:32:27.8269||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.8269||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.8548||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 21.5297ms - 200||||end
+2022-12-19 14:32:27.8571||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 27.2101ms - 200||||end
+2022-12-19 14:32:27.8571||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.8571||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.8996||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 31.9524ms - 200||||end
+2022-12-19 14:32:27.9054||11||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 41.9696ms - 200||||end
+2022-12-19 14:32:27.9054||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.9054||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:32:27.9282||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 16.87ms - 200||||end
+2022-12-19 14:32:27.9282||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 21.949ms - 200||||end
+2022-12-19 14:32:27.9282||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 320.2719ms.||||end
+2022-12-19 14:32:27.9282||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor||Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.||||end
+2022-12-19 14:32:27.9282||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 321.4864ms||||end
+2022-12-19 14:32:27.9282||4||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:32:27.9282||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - - - 200 - application/json;+charset=utf-8 323.2981ms||||end
+2022-12-19 14:33:58.0158||1||Info||WebApplication1.Program||测试test||||end
+2022-12-19 14:34:06.0240||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-19 14:34:06.0240||1||Error||WebApplication1.Program||测试test||||end
+2022-12-19 14:34:06.0240||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-19 14:34:09.1032||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-19 14:34:09.1076||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-19 14:34:09.1076||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-19 14:34:09.1076||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-19 14:34:09.1076||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-19 14:34:10.1213||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-19 14:34:10.6610||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 543.0702ms||||end
+2022-12-19 14:34:10.7054||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-19 14:34:10.7054||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-19 14:34:10.7054||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 7.2455ms||||end
+2022-12-19 14:34:10.7443||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5174ms||||end
+2022-12-19 14:34:10.9200||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-19 14:34:11.0401||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.3071ms||||end
+2022-12-19 14:34:15.6121||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2022-12-19 14:34:15.6556||5||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:34:15.7164||5||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2022-12-19 14:34:15.7962||5||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2022-12-19 14:34:36.2386||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:36.2386||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:38.4275||19||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2178.2287ms - 200||||end
+2022-12-19 14:34:38.4275||19||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2202.9158ms - 200||||end
+2022-12-19 14:34:46.6076||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:46.6076||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:48.6737||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2059.3801ms - 200||||end
+2022-12-19 14:34:48.6737||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2071.4039ms - 200||||end
+2022-12-19 14:34:56.8417||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:56.8417||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:34:58.9307||16||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2082.7133ms - 200||||end
+2022-12-19 14:34:58.9390||16||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2095.7547ms - 200||||end
+2022-12-19 14:35:07.1178||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:07.1178||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:09.1656||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2044.4043ms - 200||||end
+2022-12-19 14:35:09.1699||10||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2052.0114ms - 200||||end
+2022-12-19 14:35:17.3315||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:17.3315||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:19.3891||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2053.1315ms - 200||||end
+2022-12-19 14:35:19.3891||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.5946ms - 200||||end
+2022-12-19 14:35:27.5299||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:27.5299||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:29.5802||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2046.4848ms - 200||||end
+2022-12-19 14:35:29.5802||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2053.2584ms - 200||||end
+2022-12-19 14:35:37.7476||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:37.7476||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:39.7946||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2042.7774ms - 200||||end
+2022-12-19 14:35:39.7946||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2051.0039ms - 200||||end
+2022-12-19 14:35:47.9455||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:47.9455||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:49.9976||13||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2062.2134ms - 200||||end
+2022-12-19 14:35:50.0154||13||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2069.1803ms - 200||||end
+2022-12-19 14:35:58.1943||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:35:58.1943||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:36:00.2350||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2037.5474ms - 200||||end
+2022-12-19 14:36:00.2350||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2043.7799ms - 200||||end
+2022-12-19 14:36:08.4029||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:36:08.4041||5||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2022-12-19 14:36:10.4461||13||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2038.7969ms - 200||||end
+2022-12-19 14:36:10.4511||13||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2047.8093ms - 200||||end
+2022-12-19 14:36:14.5280||5||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 118724.2226ms.||||end
+2022-12-19 14:36:14.5291||5||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor||Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.||||end
+2022-12-19 14:36:14.5470||5||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 118827.7096ms||||end
+2022-12-19 14:36:14.5470||5||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2022-12-19 14:36:14.5593||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - - - 200 - application/json;+charset=utf-8 118947.2313ms||||end

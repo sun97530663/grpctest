@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<!--gRPC公共类,统一存放gRPC的引用资源和中间文件定义-->
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<ApplicationIcon />
+		<StartupObject />
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Protos\greetagvpart.proto" />
+		<None Remove="Protos\greetinstructions.proto" />
+		<None Remove="Protos\greetsysagv.proto" />
+		<None Remove="Protos\greetsysagvforagvs.proto" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Google.Api.Gax.Grpc.GrpcCore" Version="3.7.0" />
+		<PackageReference Include="Google.Protobuf" Version="3.19.4" />
+		<PackageReference Include="Grpc" Version="2.44.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.44.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<!--<Protobuf Include="Protos\*.proto" Link="Protos\%(RecursiveDir)%(Filename)%(Extension)" />
+		<Protobuf Include="CommunicationProtos\*.proto" Link="Protos\%(RecursiveDir)%(Filename)%(Extension)" />
+		<Protobuf Include="AgvSchduleProtos\*.proto" Link="Protos\%(RecursiveDir)%(Filename)%(Extension)" />-->
+		<Protobuf Include="AgvSchduleProtos\greetagvschdule.proto" />
+		<Protobuf Include="Protos\greetsysagvforagvs.proto" />
+		<Protobuf Include="Protos\greetsysagv.proto" />
+		<Protobuf Include="Protos\greetagvpart.proto" />
+		<Protobuf Include="Protos\greetdispatch.proto" />
+		<Protobuf Include="Protos\greetagvone.proto" />
+		<Protobuf Include="CommunicationProtos\greetinstructions.proto" />
+		<Protobuf Include="MainAPIProtos\greetmainapi.proto" />
+	</ItemGroup>
+
+		</Project>

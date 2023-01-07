@@ -1,0 +1,2441 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgvSchduleSystem.Greeter</name>
+    </assembly>
+    <members>
+        <member name="T:greeter.GreetagvschduleReflection">
+            <summary>Holder for reflection information generated from AgvSchduleProtos/greetagvschdule.proto</summary>
+        </member>
+        <member name="P:greeter.GreetagvschduleReflection.Descriptor">
+            <summary>File descriptor for AgvSchduleProtos/greetagvschdule.proto</summary>
+        </member>
+        <member name="T:greeter.HelloReply">
+            <summary>
+            The response message containing the greetings
+            </summary>
+        </member>
+        <member name="F:greeter.HelloReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:greeter.ExecResultReply.ResultFieldNumber">
+            <summary>Field number for the "result" field.</summary>
+        </member>
+        <member name="F:greeter.SetSerializeRequest.ContentFieldNumber">
+            <summary>Field number for the "content" field.</summary>
+        </member>
+        <member name="F:greeter.SetSerializeByteRequest.ContentFieldNumber">
+            <summary>Field number for the "content" field.</summary>
+        </member>
+        <member name="F:greeter.GetAgvListReply.MapIDFieldNumber">
+            <summary>Field number for the "mapID" field.</summary>
+        </member>
+        <member name="P:greeter.GetAgvListReply.MapID">
+             <summary>
+            地图ID
+             </summary>
+        </member>
+        <member name="F:greeter.SerializeReply.ContentFieldNumber">
+            <summary>Field number for the "content" field.</summary>
+        </member>
+        <member name="F:greeter.SerializeReply.SuccessFieldNumber">
+            <summary>Field number for the "success" field.</summary>
+        </member>
+        <member name="T:greeter.InitAgvListRequest">
+             <summary>
+            更新车辆运行状态
+             </summary>
+        </member>
+        <member name="F:greeter.InitAgvListRequest.StatusFieldNumber">
+            <summary>Field number for the "Status" field.</summary>
+        </member>
+        <member name="F:greeter.InitAgvListRequest.AgvlistFieldNumber">
+            <summary>Field number for the "Agvlist" field.</summary>
+        </member>
+        <member name="P:greeter.InitAgvListRequest.Agvlist">
+             <summary>
+            小车列表
+             </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.SysTokenFieldNumber">
+            <summary>Field number for the "SysToken" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.SysToken">
+             <summary>
+            外接系统标识
+             </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.ReceiveCodeFieldNumber">
+            <summary>Field number for the "ReceiveCode" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.ReceiveCode">
+            <summary>
+            第三方单据编码        
+            </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.MapCodeFieldNumber">
+            <summary>Field number for the "MapCode" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.MapCode">
+            <summary>
+            地图编码       
+            </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.TaskTemplateCodeFieldNumber">
+            <summary>Field number for the "TaskTemplateCode" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.TaskTemplateCode">
+            <summary>
+            任务模板编码
+            </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.AgvGroupCodeFieldNumber">
+            <summary>Field number for the "AgvGroupCode" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.AgvGroupCode">
+            <summary>
+            调度组编码
+            </summary>
+        </member>
+        <member name="F:greeter.CreateTaskRequest.VariablesFieldNumber">
+            <summary>Field number for the "Variables" field.</summary>
+        </member>
+        <member name="P:greeter.CreateTaskRequest.Variables">
+             <summary>
+            变量集合
+             </summary>
+        </member>
+        <member name="F:greeter.TaskVariableProto.CodeFieldNumber">
+            <summary>Field number for the "Code" field.</summary>
+        </member>
+        <member name="P:greeter.TaskVariableProto.Code">
+            <summary>
+            变量名        
+            </summary>
+        </member>
+        <member name="F:greeter.TaskVariableProto.ValueFieldNumber">
+            <summary>Field number for the "Value" field.</summary>
+        </member>
+        <member name="P:greeter.TaskVariableProto.Value">
+            <summary>
+            值       
+            </summary>
+        </member>
+        <member name="F:greeter.ChangeVariableRequest.MapCodeFieldNumber">
+            <summary>Field number for the "MapCode" field.</summary>
+        </member>
+        <member name="P:greeter.ChangeVariableRequest.MapCode">
+             <summary>
+            地图编码
+             </summary>
+        </member>
+        <member name="F:greeter.ChangeVariableRequest.ReceiveTaskIDFieldNumber">
+            <summary>Field number for the "ReceiveTaskID" field.</summary>
+        </member>
+        <member name="P:greeter.ChangeVariableRequest.ReceiveTaskID">
+             <summary>
+            任务编码
+             </summary>
+        </member>
+        <member name="F:greeter.ChangeVariableRequest.MakeTaskIDFieldNumber">
+            <summary>Field number for the "MakeTaskID" field.</summary>
+        </member>
+        <member name="F:greeter.ChangeVariableRequest.VariablesFieldNumber">
+            <summary>Field number for the "Variables" field.</summary>
+        </member>
+        <member name="P:greeter.ChangeVariableRequest.Variables">
+             <summary>
+            变量集合
+             </summary>
+        </member>
+        <member name="T:greeter.greetagvschdule">
+             <summary>
+            定义服务
+            定义方法
+             </summary>
+        </member>
+        <member name="P:greeter.greetagvschdule.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:greeter.greetagvschdule.greetagvschduleBase">
+            <summary>Base class for server-side implementations of greetagvschdule</summary>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.SetCurrentProject(greeter.SetSerializeRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            运行工程
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.StopRunningProject(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.ServerCallContext)">
+             <summary>
+            停止运行
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.SyncAgvList(greeter.InitAgvListRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.UpdateAgvOnlineState(greeter.AgvOnlineStateRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            Agv上下线处理
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.GetCurrentProjectName(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.ServerCallContext)">
+             <summary>
+            获取当前运行地图
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.GetTaskVariableList(greeter.SetSerializeRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            获取任务参数
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.CreateTask(greeter.CreateTaskRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            创建任务
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleBase.ChangeVariable(greeter.ChangeVariableRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            修改任务参数
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:greeter.greetagvschdule.greetagvschduleClient">
+            <summary>Client for greetagvschdule</summary>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for greetagvschdule</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for greetagvschdule that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SetCurrentProject(greeter.SetSerializeRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            运行工程
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SetCurrentProject(greeter.SetSerializeRequest,Grpc.Core.CallOptions)">
+             <summary>
+            运行工程
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SetCurrentProjectAsync(greeter.SetSerializeRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            运行工程
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SetCurrentProjectAsync(greeter.SetSerializeRequest,Grpc.Core.CallOptions)">
+             <summary>
+            运行工程
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.StopRunningProject(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            停止运行
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.StopRunningProject(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.CallOptions)">
+             <summary>
+            停止运行
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.StopRunningProjectAsync(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            停止运行
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.StopRunningProjectAsync(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.CallOptions)">
+             <summary>
+            停止运行
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SyncAgvList(greeter.InitAgvListRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SyncAgvList(greeter.InitAgvListRequest,Grpc.Core.CallOptions)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SyncAgvListAsync(greeter.InitAgvListRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.SyncAgvListAsync(greeter.InitAgvListRequest,Grpc.Core.CallOptions)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.UpdateAgvOnlineState(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            Agv上下线处理
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.UpdateAgvOnlineState(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            Agv上下线处理
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.UpdateAgvOnlineStateAsync(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            Agv上下线处理
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.UpdateAgvOnlineStateAsync(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            Agv上下线处理
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetCurrentProjectName(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            获取当前运行地图
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetCurrentProjectName(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.CallOptions)">
+             <summary>
+            获取当前运行地图
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetCurrentProjectNameAsync(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            获取当前运行地图
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetCurrentProjectNameAsync(Google.Protobuf.WellKnownTypes.Empty,Grpc.Core.CallOptions)">
+             <summary>
+            获取当前运行地图
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetTaskVariableList(greeter.SetSerializeRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            获取任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetTaskVariableList(greeter.SetSerializeRequest,Grpc.Core.CallOptions)">
+             <summary>
+            获取任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetTaskVariableListAsync(greeter.SetSerializeRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            获取任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.GetTaskVariableListAsync(greeter.SetSerializeRequest,Grpc.Core.CallOptions)">
+             <summary>
+            获取任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.CreateTask(greeter.CreateTaskRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            创建任务
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.CreateTask(greeter.CreateTaskRequest,Grpc.Core.CallOptions)">
+             <summary>
+            创建任务
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.CreateTaskAsync(greeter.CreateTaskRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            创建任务
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.CreateTaskAsync(greeter.CreateTaskRequest,Grpc.Core.CallOptions)">
+             <summary>
+            创建任务
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.ChangeVariable(greeter.ChangeVariableRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            修改任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.ChangeVariable(greeter.ChangeVariableRequest,Grpc.Core.CallOptions)">
+             <summary>
+            修改任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.ChangeVariableAsync(greeter.ChangeVariableRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            修改任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.ChangeVariableAsync(greeter.ChangeVariableRequest,Grpc.Core.CallOptions)">
+             <summary>
+            修改任务参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetagvschdule.greetagvschduleClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:greeter.greetagvschdule.BindService(greeter.greetagvschdule.greetagvschduleBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:greeter.greetagvschdule.BindService(Grpc.Core.ServiceBinderBase,greeter.greetagvschdule.greetagvschduleBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:greeter.GreetinstructionsReflection">
+            <summary>Holder for reflection information generated from CommunicationProtos/greetinstructions.proto</summary>
+        </member>
+        <member name="P:greeter.GreetinstructionsReflection.Descriptor">
+            <summary>File descriptor for CommunicationProtos/greetinstructions.proto</summary>
+        </member>
+        <member name="F:greeter.SayHelloRequest.NameFieldNumber">
+            <summary>Field number for the "Name" field.</summary>
+        </member>
+        <member name="T:greeter.SayHelloResult">
+             <summary>
+            定义返回值
+             </summary>
+        </member>
+        <member name="F:greeter.SayHelloResult.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="T:greeter.ExecuteCommandRequest">
+             <summary>
+            指令(系统下发)
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.FunctionModeFieldNumber">
+            <summary>Field number for the "FunctionMode" field.</summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.AgvIdFieldNumber">
+            <summary>Field number for the "AgvId" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.AgvId">
+             <summary>
+            机器编码
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.CodeIdFieldNumber">
+            <summary>Field number for the "CodeId" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.CodeId">
+             <summary>
+            指令ID
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.XCoordinateFieldNumber">
+            <summary>Field number for the "XCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.XCoordinate">
+             <summary>
+            X坐标
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.YCoordinateFieldNumber">
+            <summary>Field number for the "YCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.YCoordinate">
+             <summary>
+            Y坐标
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.LinearSpeedFieldNumber">
+            <summary>Field number for the "LinearSpeed" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.LinearSpeed">
+             <summary>
+            速度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.LinearAccelerationFieldNumber">
+            <summary>Field number for the "LinearAcceleration" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.LinearAcceleration">
+             <summary>
+            加速度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.TimeFieldNumber">
+            <summary>Field number for the "Time" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.Time">
+             <summary>
+            触发时间
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.HeightFieldNumber">
+            <summary>Field number for the "Height" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.Height">
+             <summary>
+            举升高度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.SpeedFieldNumber">
+            <summary>Field number for the "Speed" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.Speed">
+             <summary>
+            升降速度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.RotationAngleFieldNumber">
+            <summary>Field number for the "RotationAngle" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.RotationAngle">
+             <summary>
+            旋转角度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.AngularVelocityFieldNumber">
+            <summary>Field number for the "AngularVelocity" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.AngularVelocity">
+             <summary>
+            角速度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.AngularAccelerationFieldNumber">
+            <summary>Field number for the "AngularAcceleration" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.AngularAcceleration">
+             <summary>
+            角加速度
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.XCompensationFieldNumber">
+            <summary>Field number for the "XCompensation" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.XCompensation">
+             <summary>
+            X补偿
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.YCompensationFieldNumber">
+            <summary>Field number for the "YCompensation" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.YCompensation">
+             <summary>
+            Y补偿
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.AngularCompensationFieldNumber">
+            <summary>Field number for the "AngularCompensation" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.AngularCompensation">
+             <summary>
+            角度补偿
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.QrCodeFieldNumber">
+            <summary>Field number for the "QrCode" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.QrCode">
+             <summary>
+            二维码编码
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.ReplyNumFieldNumber">
+            <summary>Field number for the "ReplyNum" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.ReplyNum">
+             <summary>
+            应答通讯序号
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.NaFieldNumber">
+            <summary>Field number for the "Na" field.</summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.TriggerDistanceFieldNumber">
+            <summary>Field number for the "TriggerDistance" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.TriggerDistance">
+             <summary>
+            触发距离
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.DelaytimeFieldNumber">
+            <summary>Field number for the "Delaytime" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.Delaytime">
+             <summary>
+            延时时间
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.TriggerModeFieldNumber">
+            <summary>Field number for the "TriggerMode" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.TriggerMode">
+             <summary>
+            触发模式
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.ComAddressFieldNumber">
+            <summary>Field number for the "ComAddress" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.ComAddress">
+             <summary>
+            通讯地址
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.NumFieldNumber">
+            <summary>Field number for the "Num" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.Num">
+             <summary>
+            通讯序号
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.ScopeProtectionFrontFieldNumber">
+            <summary>Field number for the "ScopeProtectionFront" field.</summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.ScopeProtectionAfterFieldNumber">
+            <summary>Field number for the "ScopeProtectionAfter" field.</summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandRequest.DirectionRotationFieldNumber">
+            <summary>Field number for the "DirectionRotation" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandRequest.DirectionRotation">
+             <summary>
+            旋转方向 
+             </summary>
+        </member>
+        <member name="T:greeter.ExecuteCommandResult">
+             <summary>
+            agv状态
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandResult.StatusFieldNumber">
+            <summary>Field number for the "Status" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandResult.Status">
+             <summary>
+            是否成功
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandResult.MessageFieldNumber">
+            <summary>Field number for the "Message" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandResult.Message">
+             <summary>
+            消息
+             </summary>
+        </member>
+        <member name="F:greeter.ExecuteCommandResult.NumFieldNumber">
+            <summary>Field number for the "Num" field.</summary>
+        </member>
+        <member name="P:greeter.ExecuteCommandResult.Num">
+             <summary>
+            通讯序号
+             </summary>
+        </member>
+        <member name="F:greeter.GetOnlineAgvPointsRequest.ParamFieldNumber">
+            <summary>Field number for the "param" field.</summary>
+        </member>
+        <member name="T:greeter.GetOnlineAgvPointsResult">
+             <summary>
+            agv list
+             </summary>
+        </member>
+        <member name="F:greeter.GetOnlineAgvPointsResult.OnlineAgvlistFieldNumber">
+            <summary>Field number for the "OnlineAgvlist" field.</summary>
+        </member>
+        <member name="P:greeter.GetOnlineAgvPointsResult.OnlineAgvlist">
+             <summary>
+            在线小车列表
+             </summary>
+        </member>
+        <member name="T:greeter.AgvClientInfoProto">
+             <summary>
+            车身信息(AGV上传)
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.ComAddressFieldNumber">
+            <summary>Field number for the "ComAddress" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.ComAddress">
+            <summary>
+            IP:Port         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.HeartBeatTimeFieldNumber">
+            <summary>Field number for the "HeartBeatTime" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.HeartBeatTime">
+            <summary>
+            上次心跳时间         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.OnlineStatusFieldNumber">
+            <summary>Field number for the "OnlineStatus" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.OnlineStatus">
+            <summary>
+            OnlineStatus true在线 false离线           
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.RunningStatusFieldNumber">
+            <summary>Field number for the "RunningStatus" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.RunningStatus">
+             <summary>
+            运行状态
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.QrCodeFieldNumber">
+            <summary>Field number for the "QrCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.QrCode">
+            <summary>
+            二维码编码         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.XDeviationFieldNumber">
+            <summary>Field number for the "XDeviation" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.XDeviation">
+            <summary>
+            X偏差       
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.YDeviationFieldNumber">
+            <summary>Field number for the "YDeviation" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.YDeviation">
+             <summary>
+            Y偏差      
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.BeforeCodeIdFieldNumber">
+            <summary>Field number for the "BeforeCodeId" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.BeforeCodeId">
+            <summary>
+            上一条指令ID
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.CurrentCodeIdFieldNumber">
+            <summary>Field number for the "CurrentCodeId" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.CurrentCodeId">
+            <summary>
+            当前指令ID
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.BufferNumFieldNumber">
+            <summary>Field number for the "BufferNum" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.BufferNum">
+            <summary>
+            缓冲数         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.XCoordinateFieldNumber">
+            <summary>Field number for the "XCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.XCoordinate">
+            <summary>
+            X坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.YCoordinateFieldNumber">
+            <summary>Field number for the "YCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.YCoordinate">
+            <summary>
+            Y坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.AgvAngleFieldNumber">
+            <summary>Field number for the "AgvAngle" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.AgvAngle">
+            <summary>
+            车身角度         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.GoodsQrCodeFieldNumber">
+            <summary>Field number for the "GoodsQrCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.GoodsQrCode">
+             <summary>
+            货物二维码编码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.AgvPowerFieldNumber">
+            <summary>Field number for the "AgvPower" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.AgvPower">
+            <summary>
+            电量         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.ChargingStatusFieldNumber">
+            <summary>Field number for the "ChargingStatus" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.ChargingStatus">
+             <summary>
+            充电状态
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.HeightFieldNumber">
+            <summary>Field number for the "Height" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.Height">
+            <summary>
+            举升高度         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.RotationAngleFieldNumber">
+            <summary>Field number for the "RotationAngle" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.RotationAngle">
+            <summary>
+            旋转角         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.ListErrorCodeFieldNumber">
+            <summary>Field number for the "ListErrorCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.ListErrorCode">
+             <summary>
+            故障码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.MachineCodeFieldNumber">
+            <summary>Field number for the "MachineCode" field.</summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.NumFieldNumber">
+            <summary>Field number for the "Num" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.Num">
+             <summary>
+            指令信号
+             </summary>
+        </member>
+        <member name="F:greeter.AgvClientInfoProto.ResponseNumFieldNumber">
+            <summary>Field number for the "ResponseNum" field.</summary>
+        </member>
+        <member name="P:greeter.AgvClientInfoProto.ResponseNum">
+             <summary>
+            回复指令序号
+             </summary>
+        </member>
+        <member name="T:greeter.AgvOnlineStateRequest">
+             <summary>
+            车辆上下线
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.OpTypeFieldNumber">
+            <summary>Field number for the "OpType" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.OpType">
+             <summary>
+            操作类型 
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.MachineCodeFieldNumber">
+            <summary>Field number for the "MachineCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.MachineCode">
+             <summary>
+            机器码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.QrCodeFieldNumber">
+            <summary>Field number for the "QrCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.QrCode">
+             <summary>
+            二维码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.XCoordinateFieldNumber">
+            <summary>Field number for the "XCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.XCoordinate">
+            <summary>
+            X坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.YCoordinateFieldNumber">
+            <summary>Field number for the "YCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.YCoordinate">
+            <summary>
+            Y坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.ReplyNumFieldNumber">
+            <summary>Field number for the "ReplyNum" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.ReplyNum">
+             <summary>
+            应答通讯序号
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.NumFieldNumber">
+            <summary>Field number for the "Num" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.Num">
+             <summary>
+            通讯序号
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.ErrorCodeFieldNumber">
+            <summary>Field number for the "ErrorCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.ErrorCode">
+             <summary>
+            故障码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.LostInTimeFieldNumber">
+            <summary>Field number for the "LostInTime" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.LostInTime">
+             <summary>
+            失联判定时间
+             </summary>
+        </member>
+        <member name="F:greeter.AgvOnlineStateRequest.OfflineTimeFieldNumber">
+            <summary>Field number for the "OfflineTime" field.</summary>
+        </member>
+        <member name="P:greeter.AgvOnlineStateRequest.OfflineTime">
+             <summary>
+            掉线判定时间
+             </summary>
+        </member>
+        <member name="T:greeter.SendInstruction">
+             <summary>
+            定义服务
+             </summary>
+        </member>
+        <member name="P:greeter.SendInstruction.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:greeter.SendInstruction.SendInstructionBase">
+            <summary>Base class for server-side implementations of SendInstruction</summary>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionBase.SayHellos(greeter.SayHelloRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            定义方法
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionBase.ExecuteCommand(greeter.ExecuteCommandRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            发送指令
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionBase.AgvOnlineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            允许上线
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionBase.AgvRefuseOnlineCommand(greeter.AgvOnlineStateRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            拒绝上线
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionBase.AgvOfflineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            允许下线
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:greeter.SendInstruction.SendInstructionClient">
+            <summary>Client for SendInstruction</summary>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for SendInstruction</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for SendInstruction that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.SayHellos(greeter.SayHelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            定义方法
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.SayHellos(greeter.SayHelloRequest,Grpc.Core.CallOptions)">
+             <summary>
+            定义方法
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.SayHellosAsync(greeter.SayHelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            定义方法
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.SayHellosAsync(greeter.SayHelloRequest,Grpc.Core.CallOptions)">
+             <summary>
+            定义方法
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.ExecuteCommand(greeter.ExecuteCommandRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            发送指令
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.ExecuteCommand(greeter.ExecuteCommandRequest,Grpc.Core.CallOptions)">
+             <summary>
+            发送指令
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.ExecuteCommandAsync(greeter.ExecuteCommandRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            发送指令
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.ExecuteCommandAsync(greeter.ExecuteCommandRequest,Grpc.Core.CallOptions)">
+             <summary>
+            发送指令
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOnlineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            允许上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOnlineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            允许上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOnlineStateCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            允许上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOnlineStateCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            允许上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvRefuseOnlineCommand(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            拒绝上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvRefuseOnlineCommand(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            拒绝上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvRefuseOnlineCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            拒绝上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvRefuseOnlineCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            拒绝上线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOfflineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            允许下线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOfflineStateCommand(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            允许下线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOfflineStateCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            允许下线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.AgvOfflineStateCommandAsync(greeter.AgvOnlineStateRequest,Grpc.Core.CallOptions)">
+             <summary>
+            允许下线
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.SendInstruction.SendInstructionClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:greeter.SendInstruction.BindService(greeter.SendInstruction.SendInstructionBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:greeter.SendInstruction.BindService(Grpc.Core.ServiceBinderBase,greeter.SendInstruction.SendInstructionBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:greeter.GreetmainapiReflection">
+            <summary>Holder for reflection information generated from MainAPIProtos/greetmainapi.proto</summary>
+        </member>
+        <member name="P:greeter.GreetmainapiReflection.Descriptor">
+            <summary>File descriptor for MainAPIProtos/greetmainapi.proto</summary>
+        </member>
+        <member name="T:greeter.HelloRequest5">
+            <summary>
+            The request message containing the user's name.
+            </summary>
+        </member>
+        <member name="F:greeter.HelloRequest5.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="T:greeter.HelloReply5">
+            <summary>
+            The response message containing the greetings.
+            </summary>
+        </member>
+        <member name="F:greeter.HelloReply5.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:greeter.SyncAgvListRequest.MapIDFieldNumber">
+            <summary>Field number for the "MapID" field.</summary>
+        </member>
+        <member name="F:greeter.SyncAgvListRequest.AgvListFieldNumber">
+            <summary>Field number for the "AgvList" field.</summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.MachineCodeFieldNumber">
+            <summary>Field number for the "MachineCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.MachineCode">
+             <summary>
+            机器码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.NameFieldNumber">
+            <summary>Field number for the "Name" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.Name">
+             <summary>
+            车辆名称
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.QrCodeFieldNumber">
+            <summary>Field number for the "QrCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.QrCode">
+            <summary>
+            二维码编码         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.XCoordinateFieldNumber">
+            <summary>Field number for the "XCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.XCoordinate">
+            <summary>
+            X坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.YCoordinateFieldNumber">
+            <summary>Field number for the "YCoordinate" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.YCoordinate">
+            <summary>
+            Y坐标         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.AgvAngleFieldNumber">
+            <summary>Field number for the "AgvAngle" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.AgvAngle">
+            <summary>
+            车身角度         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.GoodsQrCodeFieldNumber">
+            <summary>Field number for the "GoodsQrCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.GoodsQrCode">
+             <summary>
+            货物二维码编码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.AgvPowerFieldNumber">
+            <summary>Field number for the "AgvPower" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.AgvPower">
+            <summary>
+            电量         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.BufferNumFieldNumber">
+            <summary>Field number for the "BufferNum" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.BufferNum">
+            <summary>
+            缓冲数         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.HeightFieldNumber">
+            <summary>Field number for the "Height" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.Height">
+            <summary>
+            举升高度         
+            </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.SchduleStateFieldNumber">
+            <summary>Field number for the "SchduleState" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.SchduleState">
+             <summary>
+            调度状态
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.AgvStateFieldNumber">
+            <summary>Field number for the "AgvState" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.AgvState">
+             <summary>
+            Agv状态
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.OnlineStatusFieldNumber">
+            <summary>Field number for the "OnlineStatus" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.OnlineStatus">
+             <summary>
+            在线状态
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.ErrorCodeFieldNumber">
+            <summary>Field number for the "ErrorCode" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.ErrorCode">
+             <summary>
+            错误码
+             </summary>
+        </member>
+        <member name="F:greeter.AgvShowInfoProto.ErrorInfoFieldNumber">
+            <summary>Field number for the "ErrorInfo" field.</summary>
+        </member>
+        <member name="P:greeter.AgvShowInfoProto.ErrorInfo">
+             <summary>
+            错误信息
+             </summary>
+        </member>
+        <member name="T:greeter.greetsysmainapi">
+            <summary>
+            The greeting service definition.
+            </summary>
+        </member>
+        <member name="P:greeter.greetsysmainapi.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:greeter.greetsysmainapi.greetsysmainapiBase">
+            <summary>Base class for server-side implementations of greetsysmainapi</summary>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiBase.SayHello5(greeter.HelloRequest5,Grpc.Core.ServerCallContext)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request received from the client.</param>
+            <param name="context">The context of the server-side call handler being invoked.</param>
+            <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiBase.SyncAgvList(greeter.SyncAgvListRequest,Grpc.Core.ServerCallContext)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:greeter.greetsysmainapi.greetsysmainapiClient">
+            <summary>Client for greetsysmainapi</summary>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for greetsysmainapi</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for greetsysmainapi that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SayHello5(greeter.HelloRequest5,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SayHello5(greeter.HelloRequest5,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SayHello5Async(greeter.HelloRequest5,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SayHello5Async(greeter.HelloRequest5,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SyncAgvList(greeter.SyncAgvListRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SyncAgvList(greeter.SyncAgvListRequest,Grpc.Core.CallOptions)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SyncAgvListAsync(greeter.SyncAgvListRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.SyncAgvListAsync(greeter.SyncAgvListRequest,Grpc.Core.CallOptions)">
+             <summary>
+            同步小车信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:greeter.greetsysmainapi.greetsysmainapiClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:greeter.greetsysmainapi.BindService(greeter.greetsysmainapi.greetsysmainapiBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:greeter.greetsysmainapi.BindService(Grpc.Core.ServiceBinderBase,greeter.greetsysmainapi.greetsysmainapiBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:Sysagvforagvs.GreetsysagvforagvsReflection">
+            <summary>Holder for reflection information generated from Protos/greetsysagvforagvs.proto</summary>
+        </member>
+        <member name="P:Sysagvforagvs.GreetsysagvforagvsReflection.Descriptor">
+            <summary>File descriptor for Protos/greetsysagvforagvs.proto</summary>
+        </member>
+        <member name="T:Sysagvforagvs.AgvStatusAndPos">
+             <summary>
+            agv状态和位置
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.AgvStatusAndPos.AgvNumberFieldNumber">
+            <summary>Field number for the "AgvNumber" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.AgvStatusAndPos.AgvNumber">
+             <summary>
+            agv编号
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.AgvStatusAndPos.AgvStatusFieldNumber">
+            <summary>Field number for the "AgvStatus" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.AgvStatusAndPos.AgvStatus">
+             <summary>
+            状态
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.AgvStatusAndPos.XPosFieldNumber">
+            <summary>Field number for the "xPos" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.AgvStatusAndPos.XPos">
+             <summary>
+            x位置
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.AgvStatusAndPos.YPosFieldNumber">
+            <summary>Field number for the "yPos" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.AgvStatusAndPos.YPos">
+             <summary>
+            y位置
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.AgvStatusAndPos.AngleFieldNumber">
+            <summary>Field number for the "Angle" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.AgvStatusAndPos.Angle">
+             <summary>
+            角度
+             </summary>
+        </member>
+        <member name="F:Sysagvforagvs.Resault.CodeFieldNumber">
+            <summary>Field number for the "Code" field.</summary>
+        </member>
+        <member name="F:Sysagvforagvs.Resault.MessageFieldNumber">
+            <summary>Field number for the "Message" field.</summary>
+        </member>
+        <member name="P:Sysagvforagvs.GreeterSysAgvForAgvs.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsBase">
+            <summary>Base class for server-side implementations of GreeterSysAgvForAgvs</summary>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsBase.UpdateAgvStstusAndPos(Sysagvforagvs.AgvStatusAndPos,Grpc.Core.ServerCallContext)">
+             <summary>
+            AGV上报位置和状态信息
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient">
+            <summary>Client for GreeterSysAgvForAgvs</summary>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for GreeterSysAgvForAgvs</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for GreeterSysAgvForAgvs that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.UpdateAgvStstusAndPos(Sysagvforagvs.AgvStatusAndPos,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            AGV上报位置和状态信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.UpdateAgvStstusAndPos(Sysagvforagvs.AgvStatusAndPos,Grpc.Core.CallOptions)">
+             <summary>
+            AGV上报位置和状态信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.UpdateAgvStstusAndPosAsync(Sysagvforagvs.AgvStatusAndPos,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            AGV上报位置和状态信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.UpdateAgvStstusAndPosAsync(Sysagvforagvs.AgvStatusAndPos,Grpc.Core.CallOptions)">
+             <summary>
+            AGV上报位置和状态信息
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.BindService(Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:Sysagvforagvs.GreeterSysAgvForAgvs.BindService(Grpc.Core.ServiceBinderBase,Sysagvforagvs.GreeterSysAgvForAgvs.GreeterSysAgvForAgvsBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:Sysagv.GreetsysagvReflection">
+            <summary>Holder for reflection information generated from Protos/greetsysagv.proto</summary>
+        </member>
+        <member name="P:Sysagv.GreetsysagvReflection.Descriptor">
+            <summary>File descriptor for Protos/greetsysagv.proto</summary>
+        </member>
+        <member name="T:Sysagv.HelloRequest">
+            <summary>
+            The request message containing the user's name.
+            </summary>
+        </member>
+        <member name="F:Sysagv.HelloRequest.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:Sysagv.HelloRequest.IndexFieldNumber">
+            <summary>Field number for the "index" field.</summary>
+        </member>
+        <member name="T:Sysagv.HelloReply">
+            <summary>
+            The response message containing the greetings
+            </summary>
+        </member>
+        <member name="F:Sysagv.HelloReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="T:Sysagv.MoveParam">
+             <summary>
+            移动信息
+             </summary>
+        </member>
+        <member name="F:Sysagv.MoveParam.DatatypeFieldNumber">
+            <summary>Field number for the "datatype" field.</summary>
+        </member>
+        <member name="F:Sysagv.MoveParam.FrompointFieldNumber">
+            <summary>Field number for the "frompoint" field.</summary>
+        </member>
+        <member name="F:Sysagv.MoveParam.TopointFieldNumber">
+            <summary>Field number for the "topoint" field.</summary>
+        </member>
+        <member name="F:Sysagv.MoveParam.PointlistFieldNumber">
+            <summary>Field number for the "pointlist" field.</summary>
+        </member>
+        <member name="P:Sysagv.MoveParam.Pointlist">
+             <summary>
+            点列表
+             </summary>
+        </member>
+        <member name="T:Sysagv.MoveParam.DataBodyOneofCase">
+            <summary>Enum of possible cases for the "dataBody" oneof.</summary>
+        </member>
+        <member name="T:Sysagv.MoveParam.Types">
+            <summary>Container for nested types declared in the MoveParam message type.</summary>
+        </member>
+        <member name="T:Sysagv.FromPoint">
+             <summary>
+            起始点
+             </summary>
+        </member>
+        <member name="F:Sysagv.FromPoint.XFieldNumber">
+            <summary>Field number for the "x" field.</summary>
+        </member>
+        <member name="F:Sysagv.FromPoint.YFieldNumber">
+            <summary>Field number for the "y" field.</summary>
+        </member>
+        <member name="T:Sysagv.ToPoint">
+             <summary>
+            到达点
+             </summary>
+        </member>
+        <member name="F:Sysagv.ToPoint.XFieldNumber">
+            <summary>Field number for the "x" field.</summary>
+        </member>
+        <member name="F:Sysagv.ToPoint.YFieldNumber">
+            <summary>Field number for the "y" field.</summary>
+        </member>
+        <member name="T:Sysagv.SPoint">
+             <summary>
+            点列表信息结构体
+             </summary>
+        </member>
+        <member name="F:Sysagv.SPoint.PointnameFieldNumber">
+            <summary>Field number for the "pointname" field.</summary>
+        </member>
+        <member name="F:Sysagv.SPoint.PointxFieldNumber">
+            <summary>Field number for the "pointx" field.</summary>
+        </member>
+        <member name="F:Sysagv.SPoint.PointyFieldNumber">
+            <summary>Field number for the "pointy" field.</summary>
+        </member>
+        <member name="T:Sysagv.MoveStatus">
+             <summary>
+            移动状态
+             </summary>
+        </member>
+        <member name="F:Sysagv.MoveStatus.StstusFieldNumber">
+            <summary>Field number for the "ststus" field.</summary>
+        </member>
+        <member name="T:Sysagv.SlamParam">
+             <summary>
+            salm参数
+             </summary>
+        </member>
+        <member name="F:Sysagv.SlamParam.IndexFieldNumber">
+            <summary>Field number for the "index" field.</summary>
+        </member>
+        <member name="T:Sysagv.SlamInfo">
+             <summary>
+            slam地图信息
+             </summary>
+        </member>
+        <member name="F:Sysagv.SlamInfo.DataFieldNumber">
+            <summary>Field number for the "data" field.</summary>
+        </member>
+        <member name="P:Sysagv.SlamInfo.Data">
+             <summary>
+            后面测试bytes
+             </summary>
+        </member>
+        <member name="T:Sysagv.TaskInfo">
+             <summary>
+            任务信息
+             </summary>
+        </member>
+        <member name="F:Sysagv.TaskInfo.TaskIndexFieldNumber">
+            <summary>Field number for the "taskIndex" field.</summary>
+        </member>
+        <member name="F:Sysagv.TaskInfo.TaskNameFieldNumber">
+            <summary>Field number for the "taskName" field.</summary>
+        </member>
+        <member name="T:Sysagv.TaskStatus">
+             <summary>
+            任务状态
+             </summary>
+        </member>
+        <member name="F:Sysagv.TaskStatus.TaskStatus_FieldNumber">
+            <summary>Field number for the "taskStatus" field.</summary>
+        </member>
+        <member name="T:Sysagv.DispatchStatus">
+             <summary>
+            调度状态
+             </summary>
+        </member>
+        <member name="F:Sysagv.DispatchStatus.DispatchStatus_FieldNumber">
+            <summary>Field number for the "dispatchStatus" field.</summary>
+        </member>
+        <member name="T:Sysagv.AgvStatus">
+             <summary>
+            agv状态
+             </summary>
+        </member>
+        <member name="F:Sysagv.AgvStatus.AgvStatus_FieldNumber">
+            <summary>Field number for the "AgvStatus" field.</summary>
+        </member>
+        <member name="P:Sysagv.GreeterSysAgv.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Sysagv.GreeterSysAgv.GreeterSysAgvBase">
+            <summary>Base class for server-side implementations of GreeterSysAgv</summary>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvBase.MovePointToPoint(Sysagv.MoveParam,Grpc.Core.ServerCallContext)">
+             <summary>
+            ※注意：发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:Sysagv.GreeterSysAgv.GreeterSysAgvClient">
+            <summary>Client for GreeterSysAgv</summary>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for GreeterSysAgv</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for GreeterSysAgv that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.MovePointToPoint(Sysagv.MoveParam,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            ※注意：发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.MovePointToPoint(Sysagv.MoveParam,Grpc.Core.CallOptions)">
+             <summary>
+            ※注意：发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.MovePointToPointAsync(Sysagv.MoveParam,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            ※注意：发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.MovePointToPointAsync(Sysagv.MoveParam,Grpc.Core.CallOptions)">
+             <summary>
+            ※注意：发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.GreeterSysAgvClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.BindService(Sysagv.GreeterSysAgv.GreeterSysAgvBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:Sysagv.GreeterSysAgv.BindService(Grpc.Core.ServiceBinderBase,Sysagv.GreeterSysAgv.GreeterSysAgvBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:Agvpart.GreetagvpartReflection">
+            <summary>Holder for reflection information generated from Protos/greetagvpart.proto</summary>
+        </member>
+        <member name="P:Agvpart.GreetagvpartReflection.Descriptor">
+            <summary>File descriptor for Protos/greetagvpart.proto</summary>
+        </member>
+        <member name="T:Agvpart.HiRequest">
+            <summary>
+            The request message containing the user's name.
+            </summary>
+        </member>
+        <member name="F:Agvpart.HiRequest.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:Agvpart.HiRequest.IndexFieldNumber">
+            <summary>Field number for the "index" field.</summary>
+        </member>
+        <member name="T:Agvpart.HiReply">
+            <summary>
+            The response message containing the greetings
+            </summary>
+        </member>
+        <member name="F:Agvpart.HiReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="T:Agvpart.GreeterAgvPart">
+            <summary>
+            agv端服务其他接口的定义，主要测试两个或多个服务端的使用，对客户端来说还是使用同一个channel进行通信
+            </summary>
+        </member>
+        <member name="P:Agvpart.GreeterAgvPart.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Agvpart.GreeterAgvPart.GreeterAgvPartBase">
+            <summary>Base class for server-side implementations of GreeterAgvPart</summary>
+        </member>
+        <member name="T:Agvpart.GreeterAgvPart.GreeterAgvPartClient">
+            <summary>Client for GreeterAgvPart</summary>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.GreeterAgvPartClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for GreeterAgvPart</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.GreeterAgvPartClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for GreeterAgvPart that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.GreeterAgvPartClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.GreeterAgvPartClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.GreeterAgvPartClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.BindService(Agvpart.GreeterAgvPart.GreeterAgvPartBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:Agvpart.GreeterAgvPart.BindService(Grpc.Core.ServiceBinderBase,Agvpart.GreeterAgvPart.GreeterAgvPartBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:GrpcService.GreetdispatchReflection">
+            <summary>Holder for reflection information generated from Protos/greetdispatch.proto</summary>
+        </member>
+        <member name="P:GrpcService.GreetdispatchReflection.Descriptor">
+            <summary>File descriptor for Protos/greetdispatch.proto</summary>
+        </member>
+        <member name="T:GrpcService.HelloRequest">
+            <summary>
+            The request message containing the user's name.
+            </summary>
+        </member>
+        <member name="F:GrpcService.HelloRequest.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="T:GrpcService.HelloReply">
+            <summary>
+            The response message containing the greetings.
+            </summary>
+        </member>
+        <member name="F:GrpcService.HelloReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="T:GrpcService.GreeterDispatch">
+            <summary>
+            The greeting service definition.
+            </summary>
+        </member>
+        <member name="P:GrpcService.GreeterDispatch.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:GrpcService.GreeterDispatch.GreeterDispatchBase">
+            <summary>Base class for server-side implementations of GreeterDispatch</summary>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchBase.SayHello(GrpcService.HelloRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request received from the client.</param>
+            <param name="context">The context of the server-side call handler being invoked.</param>
+            <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:GrpcService.GreeterDispatch.GreeterDispatchClient">
+            <summary>Client for GreeterDispatch</summary>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for GreeterDispatch</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for GreeterDispatch that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.SayHello(GrpcService.HelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.SayHello(GrpcService.HelloRequest,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.SayHelloAsync(GrpcService.HelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.SayHelloAsync(GrpcService.HelloRequest,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.GreeterDispatchClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.BindService(GrpcService.GreeterDispatch.GreeterDispatchBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:GrpcService.GreeterDispatch.BindService(Grpc.Core.ServiceBinderBase,GrpcService.GreeterDispatch.GreeterDispatchBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="T:Agvone.GreetagvoneReflection">
+            <summary>Holder for reflection information generated from Protos/greetagvone.proto</summary>
+        </member>
+        <member name="P:Agvone.GreetagvoneReflection.Descriptor">
+            <summary>File descriptor for Protos/greetagvone.proto</summary>
+        </member>
+        <member name="T:Agvone.HelloRequest">
+            <summary>
+            The request message containing the user's name.
+            </summary>
+        </member>
+        <member name="F:Agvone.HelloRequest.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:Agvone.HelloRequest.IndexFieldNumber">
+            <summary>Field number for the "index" field.</summary>
+        </member>
+        <member name="T:Agvone.HelloReply">
+            <summary>
+            The response message containing the greetings
+            </summary>
+        </member>
+        <member name="F:Agvone.HelloReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="T:Agvone.MoveParam">
+             <summary>
+            移动信息
+             </summary>
+        </member>
+        <member name="F:Agvone.MoveParam.DatatypeFieldNumber">
+            <summary>Field number for the "datatype" field.</summary>
+        </member>
+        <member name="F:Agvone.MoveParam.FrompointFieldNumber">
+            <summary>Field number for the "frompoint" field.</summary>
+        </member>
+        <member name="F:Agvone.MoveParam.TopointFieldNumber">
+            <summary>Field number for the "topoint" field.</summary>
+        </member>
+        <member name="F:Agvone.MoveParam.PointlistFieldNumber">
+            <summary>Field number for the "pointlist" field.</summary>
+        </member>
+        <member name="P:Agvone.MoveParam.Pointlist">
+             <summary>
+            点列表
+             </summary>
+        </member>
+        <member name="T:Agvone.MoveParam.DataBodyOneofCase">
+            <summary>Enum of possible cases for the "dataBody" oneof.</summary>
+        </member>
+        <member name="T:Agvone.MoveParam.Types">
+            <summary>Container for nested types declared in the MoveParam message type.</summary>
+        </member>
+        <member name="T:Agvone.FromPoint">
+             <summary>
+            起始点
+             </summary>
+        </member>
+        <member name="F:Agvone.FromPoint.XFieldNumber">
+            <summary>Field number for the "x" field.</summary>
+        </member>
+        <member name="F:Agvone.FromPoint.YFieldNumber">
+            <summary>Field number for the "y" field.</summary>
+        </member>
+        <member name="T:Agvone.ToPoint">
+             <summary>
+            到达点
+             </summary>
+        </member>
+        <member name="F:Agvone.ToPoint.XFieldNumber">
+            <summary>Field number for the "x" field.</summary>
+        </member>
+        <member name="F:Agvone.ToPoint.YFieldNumber">
+            <summary>Field number for the "y" field.</summary>
+        </member>
+        <member name="T:Agvone.SPoint">
+             <summary>
+            点列表信息结构体
+             </summary>
+        </member>
+        <member name="F:Agvone.SPoint.PointnameFieldNumber">
+            <summary>Field number for the "pointname" field.</summary>
+        </member>
+        <member name="F:Agvone.SPoint.PointxFieldNumber">
+            <summary>Field number for the "pointx" field.</summary>
+        </member>
+        <member name="F:Agvone.SPoint.PointyFieldNumber">
+            <summary>Field number for the "pointy" field.</summary>
+        </member>
+        <member name="T:Agvone.MoveStatus">
+             <summary>
+            移动状态
+             </summary>
+        </member>
+        <member name="F:Agvone.MoveStatus.StstusFieldNumber">
+            <summary>Field number for the "ststus" field.</summary>
+        </member>
+        <member name="T:Agvone.SlamParam">
+             <summary>
+            salm参数
+             </summary>
+        </member>
+        <member name="F:Agvone.SlamParam.IndexFieldNumber">
+            <summary>Field number for the "index" field.</summary>
+        </member>
+        <member name="T:Agvone.SlamInfo">
+             <summary>
+            slam地图信息
+             </summary>
+        </member>
+        <member name="F:Agvone.SlamInfo.DataFieldNumber">
+            <summary>Field number for the "data" field.</summary>
+        </member>
+        <member name="P:Agvone.SlamInfo.Data">
+             <summary>
+            后面测试bytes
+             </summary>
+        </member>
+        <member name="T:Agvone.TaskInfo">
+             <summary>
+            任务信息
+             </summary>
+        </member>
+        <member name="F:Agvone.TaskInfo.TaskIndexFieldNumber">
+            <summary>Field number for the "taskIndex" field.</summary>
+        </member>
+        <member name="F:Agvone.TaskInfo.TaskNameFieldNumber">
+            <summary>Field number for the "taskName" field.</summary>
+        </member>
+        <member name="T:Agvone.TaskStatus">
+             <summary>
+            任务状态
+             </summary>
+        </member>
+        <member name="F:Agvone.TaskStatus.TaskStatus_FieldNumber">
+            <summary>Field number for the "taskStatus" field.</summary>
+        </member>
+        <member name="T:Agvone.DispatchStatus">
+             <summary>
+            调度状态
+             </summary>
+        </member>
+        <member name="F:Agvone.DispatchStatus.DispatchStatus_FieldNumber">
+            <summary>Field number for the "dispatchStatus" field.</summary>
+        </member>
+        <member name="T:Agvone.AgvStatus">
+             <summary>
+            agv状态
+             </summary>
+        </member>
+        <member name="F:Agvone.AgvStatus.AgvStatus_FieldNumber">
+            <summary>Field number for the "AgvStatus" field.</summary>
+        </member>
+        <member name="T:Agvone.GreeterAgvOne">
+            <summary>
+            agv端服务接口的定义
+            </summary>
+        </member>
+        <member name="P:Agvone.GreeterAgvOne.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Agvone.GreeterAgvOne.GreeterAgvOneBase">
+            <summary>Base class for server-side implementations of GreeterAgvOne</summary>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneBase.SayHello(Agvone.HelloRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request received from the client.</param>
+            <param name="context">The context of the server-side call handler being invoked.</param>
+            <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneBase.MovePointToPoint(Agvone.MoveParam,Grpc.Core.ServerCallContext)">
+             <summary>
+            发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request received from the client.</param>
+             <param name="context">The context of the server-side call handler being invoked.</param>
+             <returns>The response to send back to the client (wrapped by a task).</returns>
+        </member>
+        <member name="T:Agvone.GreeterAgvOne.GreeterAgvOneClient">
+            <summary>Client for GreeterAgvOne</summary>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for GreeterAgvOne</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for GreeterAgvOne that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.SayHello(Agvone.HelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.SayHello(Agvone.HelloRequest,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.SayHelloAsync(Agvone.HelloRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+            <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+            <param name="cancellationToken">An optional token for canceling the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.SayHelloAsync(Agvone.HelloRequest,Grpc.Core.CallOptions)">
+            <summary>
+            Sends a greeting
+            </summary>
+            <param name="request">The request to send to the server.</param>
+            <param name="options">The options for the call.</param>
+            <returns>The call object.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.MovePointToPoint(Agvone.MoveParam,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.MovePointToPoint(Agvone.MoveParam,Grpc.Core.CallOptions)">
+             <summary>
+            发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The response received from the server.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.MovePointToPointAsync(Agvone.MoveParam,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)">
+             <summary>
+            发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+             <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+             <param name="cancellationToken">An optional token for canceling the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.MovePointToPointAsync(Agvone.MoveParam,Grpc.Core.CallOptions)">
+             <summary>
+            发送和返回只能有一个参数
+             </summary>
+             <param name="request">The request to send to the server.</param>
+             <param name="options">The options for the call.</param>
+             <returns>The call object.</returns>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.GreeterAgvOneClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.BindService(Agvone.GreeterAgvOne.GreeterAgvOneBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:Agvone.GreeterAgvOne.BindService(Grpc.Core.ServiceBinderBase,Agvone.GreeterAgvOne.GreeterAgvOneBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,267 @@
+2023-01-07 11:29:47.9123||1||Info||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Warn||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Error||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:47.9329||1||Fatal||WebApplication1.Program||测试test||||end
+2023-01-07 11:29:51.0673||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:29:51.0719||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:29:52.0459||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger - -||||end
+2023-01-07 11:29:52.4674||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger - - - 301 0 - 426.6081ms||||end
+2023-01-07 11:29:52.4861||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2023-01-07 11:29:52.6036||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 117.7274ms||||end
+2023-01-07 11:29:52.6752||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - -||||end
+2023-01-07 11:29:52.6999||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - -||||end
+2023-01-07 11:29:52.6999||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - -||||end
+2023-01-07 11:29:52.6999||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2023-01-07 11:29:52.7156||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 9.7863ms||||end
+2023-01-07 11:29:52.7640||15||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'||||end
+2023-01-07 11:29:52.7640||8||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'||||end
+2023-01-07 11:29:52.8070||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 141.2421ms||||end
+2023-01-07 11:29:52.8070||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 108.4671ms||||end
+2023-01-07 11:29:52.8682||17||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'||||end
+2023-01-07 11:29:52.8878||17||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 184.5431ms||||end
+2023-01-07 11:29:53.4037||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2023-01-07 11:29:53.4672||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/favicon-32x32.png - -||||end
+2023-01-07 11:29:53.4789||4||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'||||end
+2023-01-07 11:29:53.4789||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 12.6287ms||||end
+2023-01-07 11:29:53.5871||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.8702ms||||end
+2023-01-07 11:29:57.8677||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 11:29:57.9026||4||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 11:29:57.9256||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 11:29:58.0280||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 11:30:20.6107||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:30:20.6198||4||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:30:20.8045||4||Error||Grpc.Net.Client.Internal.GrpcCall||Error starting gRPC call.||System.Net.Http.HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Shared.TelemetryHeaderHandler.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.BalancerHttpHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)||end
+2023-01-07 11:30:20.8204||4||Info||Grpc.Net.Client.Internal.GrpcCall||Call failed with gRPC error status. Status code: 'Internal', Message: 'Error starting gRPC call. HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.'.||||end
+2023-01-07 11:32:30.1724||1||Info||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Warn||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Error||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:30.1877||1||Fatal||WebApplication1.Program||测试test||||end
+2023-01-07 11:32:33.2846||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:32:33.2846||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:32:33.2893||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:32:34.0679||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2023-01-07 11:32:34.4673||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 403.8026ms||||end
+2023-01-07 11:32:34.5028||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2023-01-07 11:32:34.5028||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.5701ms||||end
+2023-01-07 11:32:34.9015||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2023-01-07 11:32:35.0023||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.9418ms||||end
+2023-01-07 11:32:38.2161||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 11:32:38.2493||7||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 11:32:38.2597||7||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 11:32:38.3537||7||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 11:33:00.9535||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5005/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:33:00.9535||7||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5005/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:33:01.1147||7||Error||Grpc.Net.Client.Internal.GrpcCall||Error starting gRPC call.||System.Net.Http.HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Shared.TelemetryHeaderHandler.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.BalancerHttpHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)||end
+2023-01-07 11:33:01.1317||7||Info||Grpc.Net.Client.Internal.GrpcCall||Call failed with gRPC error status. Status code: 'Internal', Message: 'Error starting gRPC call. HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.'.||||end
+2023-01-07 11:36:00.3443||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:36:00.3443||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:36:00.3545||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:36:01.1228||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2023-01-07 11:36:01.8838||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 763.7635ms||||end
+2023-01-07 11:36:02.0226||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2023-01-07 11:36:02.0625||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 40.0101ms||||end
+2023-01-07 11:36:02.2476||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2023-01-07 11:36:02.3775||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.4310ms||||end
+2023-01-07 11:36:05.9246||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 11:36:05.9559||4||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 11:36:05.9783||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 11:36:06.0556||4||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 11:36:32.5738||14||Error||Grpc.Net.Client.Internal.GrpcCall||Error starting gRPC call.||Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.SocketConnectivitySubchannelTransport.TryConnectAsync(CancellationToken cancellationToken)")
+   at Grpc.Net.Client.Balancer.Internal.ConnectionManager.PickAsync(PickContext context, Boolean waitForReady, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.BalancerHttpHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)||end
+2023-01-07 11:36:32.5977||14||Info||Grpc.Net.Client.Internal.GrpcCall||Call failed with gRPC error status. Status code: 'Unavailable', Message: 'Error connecting to subchannel.'.||||end
+2023-01-07 11:57:54.3965||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 11:57:54.4070||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 11:57:54.4070||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 11:57:54.4146||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 11:57:54.4146||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 11:57:58.2636||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2023-01-07 11:57:58.8440||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 584.0668ms||||end
+2023-01-07 11:57:59.4746||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2023-01-07 11:57:59.4795||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 4.9993ms||||end
+2023-01-07 11:57:59.7635||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2023-01-07 11:57:59.8813||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.9487ms||||end
+2023-01-07 11:58:03.7277||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 11:58:03.7738||8||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 11:58:03.8014||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 11:58:03.8998||8||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 11:58:32.8845||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:58:32.8845||8||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 11:58:33.0865||8||Error||Grpc.Net.Client.Internal.GrpcCall||Error starting gRPC call.||System.Net.Http.HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Shared.TelemetryHeaderHandler.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Balancer.Internal.BalancerHttpHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)||end
+2023-01-07 11:58:33.1043||8||Info||Grpc.Net.Client.Internal.GrpcCall||Call failed with gRPC error status. Status code: 'Internal', Message: 'Error starting gRPC call. HttpRequestException: Requesting HTTP version 2.0 with version policy RequestVersionOrHigher while HTTP/2 is not enabled.'.||||end
+2023-01-07 13:22:34.3926||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:22:34.4007||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:23:42.1395||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:23:42.1395||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:23:42.1505||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:25:10.9018||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:25:10.9146||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:25:10.9146||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:26:12.1175||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:29:12.2531||2||Info||Microsoft.Hosting.Lifetime||Application is shutting down...||||end
+2023-01-07 13:33:33.6564||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2023-01-07 13:33:33.6564||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2023-01-07 13:33:33.6640||1||Info||Microsoft.Hosting.Lifetime||Content root path: C:\Users\Administrator\source\repos\GrpcServiceTestServer\WebApplication1||||end
+2023-01-07 13:33:36.0489||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger - -||||end
+2023-01-07 13:33:36.3497||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger - - - 301 0 - 303.0736ms||||end
+2023-01-07 13:33:36.3665||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2023-01-07 13:33:36.5441||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 186.7531ms||||end
+2023-01-07 13:33:36.6613||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - -||||end
+2023-01-07 13:33:36.6613||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - -||||end
+2023-01-07 13:33:36.6613||14||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - -||||end
+2023-01-07 13:33:36.6677||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2023-01-07 13:33:36.6677||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2023-01-07 13:33:36.6677||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.5633ms||||end
+2023-01-07 13:33:36.6960||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3536ms||||end
+2023-01-07 13:33:36.6960||15||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'||||end
+2023-01-07 13:33:36.6960||18||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'||||end
+2023-01-07 13:33:36.6960||15||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 36.3967ms||||end
+2023-01-07 13:33:36.6960||18||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 37.2600ms||||end
+2023-01-07 13:33:36.6960||16||Info||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware||Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'||||end
+2023-01-07 13:33:36.6960||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 42.7163ms||||end
+2023-01-07 13:33:37.5771||18||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2023-01-07 13:33:37.6771||18||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.0987ms||||end
+2023-01-07 13:39:17.2002||24||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 13:39:17.2417||24||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 13:39:17.2624||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 13:39:17.3532||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 13:39:41.8850||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:41.8850||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:46.5462||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4648.0438ms - 200||||end
+2023-01-07 13:39:46.5462||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4672.5759ms - 200||||end
+2023-01-07 13:39:59.5323||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:39:59.5323||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:04.6068||35||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 5070.8313ms - 200||||end
+2023-01-07 13:40:04.6068||35||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 5078.0266ms - 200||||end
+2023-01-07 13:40:17.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:17.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:19.8001||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2042.9401ms - 200||||end
+2023-01-07 13:40:19.8052||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2054.3578ms - 200||||end
+2023-01-07 13:40:27.9637||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:27.9637||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:30.0169||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2048.3616ms - 200||||end
+2023-01-07 13:40:30.0169||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2058.2718ms - 200||||end
+2023-01-07 13:40:38.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:38.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:40.2588||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2051.6485ms - 200||||end
+2023-01-07 13:40:40.2761||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.1317ms - 200||||end
+2023-01-07 13:40:48.4742||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:48.4790||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:50.5285||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.9967ms - 200||||end
+2023-01-07 13:40:50.5285||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2057.3144ms - 200||||end
+2023-01-07 13:40:58.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:40:58.7508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:00.8054||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.7187ms - 200||||end
+2023-01-07 13:41:00.8054||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.381ms - 200||||end
+2023-01-07 13:41:08.9698||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:08.9698||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:11.0063||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2031.3552ms - 200||||end
+2023-01-07 13:41:11.0094||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2039.626ms - 200||||end
+2023-01-07 13:41:19.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:19.2161||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:23.3063||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4084.8246ms - 200||||end
+2023-01-07 13:41:23.3063||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4092.1646ms - 200||||end
+2023-01-07 13:41:31.4803||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:31.4803||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:41:35.5931||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4107.9748ms - 200||||end
+2023-01-07 13:41:35.5931||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4114.5738ms - 200||||end
+2023-01-07 13:41:41.7072||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 144351.1122ms.||||end
+2023-01-07 13:41:41.7116||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor||Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.||||end
+2023-01-07 13:41:41.7291||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 144459.0116ms||||end
+2023-01-07 13:41:41.7291||24||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 13:41:41.7291||24||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - - - 200 - application/json;+charset=utf-8 144523.9857ms||||end
+2023-01-07 13:43:20.7445||24||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - -||||end
+2023-01-07 13:43:20.7445||24||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 13:43:20.7445||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).||||end
+2023-01-07 13:43:20.7445||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executing action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) - Validation state: Valid||||end
+2023-01-07 13:43:24.8504||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:24.8515||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:26.9059||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2050.7775ms - 200||||end
+2023-01-07 13:43:26.9059||20||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2060.4826ms - 200||||end
+2023-01-07 13:43:39.1020||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:39.1020||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:41.1608||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2054.9198ms - 200||||end
+2023-01-07 13:43:41.1608||32||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2062.2615ms - 200||||end
+2023-01-07 13:43:53.4400||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:53.4400||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:43:55.4921||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2060.5173ms - 200||||end
+2023-01-07 13:43:55.5080||31||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2067.9522ms - 200||||end
+2023-01-07 13:44:07.7114||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:07.7114||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:09.7665||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2050.9045ms - 200||||end
+2023-01-07 13:44:09.7665||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2061.0696ms - 200||||end
+2023-01-07 13:44:20.0437||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:20.0437||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:24.1328||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4095.706ms - 200||||end
+2023-01-07 13:44:24.1492||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4103.9965ms - 200||||end
+2023-01-07 13:44:32.2919||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:32.2919||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:36.4096||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 4112.0646ms - 200||||end
+2023-01-07 13:44:36.4096||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 4119.6809ms - 200||||end
+2023-01-07 13:44:46.5871||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:46.5871||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:44:48.6376||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2047.0555ms - 200||||end
+2023-01-07 13:44:48.6376||36||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2054.0437ms - 200||||end
+2023-01-07 13:45:00.8508||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:00.8515||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:02.9037||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2048.377ms - 200||||end
+2023-01-07 13:45:02.9037||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2056.2225ms - 200||||end
+2023-01-07 13:45:15.1645||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:15.1645||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:17.2206||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2051.5101ms - 200||||end
+2023-01-07 13:45:17.2278||30||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2066.0833ms - 200||||end
+2023-01-07 13:45:29.4952||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||Start processing HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:29.4952||24||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Sending HTTP request POST http://127.0.0.1:5006/agvschdule.greetagvschdule/GetCurrentProjectName||||end
+2023-01-07 13:45:31.5500||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.ClientHandler||Received HTTP response headers after 2049.9374ms - 200||||end
+2023-01-07 13:45:31.5500||33||Info||System.Net.Http.HttpClient.greetagvschduleClient.LogicalHandler||End processing HTTP request after 2058.4877ms - 200||||end
+2023-01-07 13:45:35.6326||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action method WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 134883.4141ms.||||end
+2023-01-07 13:45:35.6345||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor||Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.||||end
+2023-01-07 13:45:35.6345||24||Info||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker||Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 134887.0325ms||||end
+2023-01-07 13:45:35.6345||24||Info||Microsoft.AspNetCore.Routing.EndpointMiddleware||Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'||||end
+2023-01-07 13:45:35.6345||24||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/Agv_Manage/WeatherForecast/Get - - - 200 - application/json;+charset=utf-8 134891.5244ms||||end

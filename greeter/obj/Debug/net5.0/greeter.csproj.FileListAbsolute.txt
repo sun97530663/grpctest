@@ -1,0 +1,12 @@
+E:\AGV\AgvSchduleSystem\greeter\bin\Debug\net5.0\greeter.deps.json
+E:\AGV\AgvSchduleSystem\greeter\bin\Debug\net5.0\greeter.dll
+E:\AGV\AgvSchduleSystem\greeter\bin\Debug\net5.0\greeter.pdb
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.csproj.AssemblyReference.cache
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.GeneratedMSBuildEditorConfig.editorconfig
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.AssemblyInfoInputs.cache
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.AssemblyInfo.cs
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.csproj.CoreCompileInputs.cache
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.dll
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\refint\greeter.dll
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\greeter.pdb
+E:\AGV\AgvSchduleSystem\greeter\obj\Debug\net5.0\ref\greeter.dll

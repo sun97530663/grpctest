@@ -1,0 +1,115 @@
+2022-12-16 17:40:23.9290||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 17:40:23.9316||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 17:40:23.9316||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 17:40:23.9316||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 17:40:23.9316||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 17:40:24.7777||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 17:40:25.4616||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 688.9327ms||||end
+2022-12-16 17:40:25.5095||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 17:40:25.5095||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.9148ms||||end
+2022-12-16 17:40:25.5095||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 17:40:25.6029||12||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 88.8830ms||||end
+2022-12-16 17:40:25.8523||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 17:40:26.0052||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.0614ms||||end
+2022-12-16 17:56:27.3119||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 17:56:27.3119||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 17:56:27.3119||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 17:56:27.3119||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 17:56:29.7779||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 17:56:29.7779||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 17:56:29.7779||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 17:56:29.7779||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 17:56:29.7779||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 17:56:30.8302||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 17:56:31.3744||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 548.2415ms||||end
+2022-12-16 17:56:31.4163||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 17:56:31.4163||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 17:56:31.4163||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.3439ms||||end
+2022-12-16 17:56:31.4448||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.4116ms||||end
+2022-12-16 17:56:31.6479||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 17:56:31.7750||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.2455ms||||end
+2022-12-16 17:58:00.2913||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 17:58:00.2913||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 17:58:00.2913||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 17:58:00.2913||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 17:58:02.7485||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 17:58:02.7485||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 17:58:02.7485||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 17:58:02.7485||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 17:58:02.7485||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 17:58:03.7745||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 17:58:04.4049||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 635.0279ms||||end
+2022-12-16 17:58:04.4537||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 17:58:04.4537||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 17:58:04.4609||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.1173ms||||end
+2022-12-16 17:58:04.5276||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.9585ms||||end
+2022-12-16 17:58:04.7071||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 17:58:04.8019||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.8753ms||||end
+2022-12-16 17:59:25.4425||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 17:59:25.4425||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 17:59:25.4425||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 17:59:25.4425||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 17:59:27.8947||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 17:59:27.8998||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 17:59:27.8998||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 17:59:27.8998||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 17:59:27.8998||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 17:59:28.6297||11||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 17:59:29.1581||16||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 529.7520ms||||end
+2022-12-16 17:59:29.2074||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 17:59:29.2074||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 1.9758ms||||end
+2022-12-16 17:59:29.2074||12||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 17:59:29.2454||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8762ms||||end
+2022-12-16 17:59:29.4485||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 17:59:29.5468||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.2029ms||||end
+2022-12-16 18:00:01.8176||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:01.8176||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:01.8176||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:01.8176||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:04.3383||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 18:00:04.3383||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 18:00:04.3383||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 18:00:04.3383||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 18:00:04.3383||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 18:00:05.4621||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 18:00:05.9954||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 541.1911ms||||end
+2022-12-16 18:00:06.0596||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 18:00:06.0834||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 23.7337ms||||end
+2022-12-16 18:00:06.0834||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 18:00:06.1473||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.5017ms||||end
+2022-12-16 18:00:06.3295||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 18:00:06.4293||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.8432ms||||end
+2022-12-16 18:00:58.6417||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:58.6417||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:58.6417||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 18:00:58.6417||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 18:01:01.0487||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 18:01:01.0487||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 18:01:01.0487||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 18:01:01.0487||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 18:01:01.0487||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 18:01:02.3610||7||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 18:01:02.8872||6||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 529.8128ms||||end
+2022-12-16 18:01:02.9252||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 18:01:02.9252||9||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 18:01:02.9252||5||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.6443ms||||end
+2022-12-16 18:01:02.9551||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.0713ms||||end
+2022-12-16 18:01:03.1757||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 18:01:03.2915||10||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8941ms||||end
+2022-12-16 18:02:55.3922||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 18:02:57.8687||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 18:02:57.8687||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 18:02:58.8941||12||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - -||||end
+2022-12-16 18:02:59.4388||13||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 548.5591ms||||end
+2022-12-16 18:02:59.4867||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - -||||end
+2022-12-16 18:02:59.4867||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - -||||end
+2022-12-16 18:02:59.4921||8||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.4646ms||||end
+2022-12-16 18:02:59.5259||4||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2652ms||||end
+2022-12-16 18:02:59.7488||12||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - -||||end
+2022-12-16 18:02:59.8380||12||Info||Microsoft.AspNetCore.Hosting.Diagnostics||Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.2845ms||||end

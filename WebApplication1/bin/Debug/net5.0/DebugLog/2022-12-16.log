@@ -1,0 +1,13 @@
+2022-12-16 18:02:55.3734||1||Trace||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Debug||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Info||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Warn||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Error||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:55.3922||1||Fatal||WebApplication1.Program||测试test||||end
+2022-12-16 18:02:57.6054||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting starting||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5001||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Now listening on: http://[::]:5002||||end
+2022-12-16 18:02:57.8602||1||Info||Microsoft.Hosting.Lifetime||Application started. Press Ctrl+C to shut down.||||end
+2022-12-16 18:02:57.8687||1||Info||Microsoft.Hosting.Lifetime||Hosting environment: Development||||end
+2022-12-16 18:02:57.8687||1||Info||Microsoft.Hosting.Lifetime||Content root path: E:\AGV\AgvSchduleSystem\WebApplication1||||end
+2022-12-16 18:02:57.8687||1||Debug||Microsoft.Extensions.Hosting.Internal.Host||Hosting started||||end

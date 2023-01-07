@@ -1,0 +1,2 @@
+obj\Release\net5.0\Protos/Greetagvpart.cs \
+obj\Release\net5.0\Protos/GreetagvpartGrpc.cs: Protos/greetagvpart.proto

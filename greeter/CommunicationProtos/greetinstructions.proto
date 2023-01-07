@@ -1,0 +1,245 @@
+syntax = "proto3";
+
+option csharp_namespace = "greeter";
+
+import "google/api/annotations.proto";
+
+package HelloGrpcTest; //定义包名
+
+//定义服务
+service SendInstruction{
+	//定义方法
+	rpc SayHellos(SayHelloRequest) returns(SayHelloResult){
+		option (google.api.http) = {
+			post: "/SayHellos"
+			body: "*"
+		};
+	};
+
+	//发送指令
+	rpc ExecuteCommand(ExecuteCommandRequest) returns(ExecuteCommandResult){
+		option (google.api.http) = {
+			post: "/ExecuteCommand"
+			body: "*"
+		};	
+	}
+
+	//允许上线
+	rpc AgvOnlineStateCommand(AgvOnlineStateRequest) returns(ExecuteCommandResult){
+		option (google.api.http) = {
+			post: "/AllowOnlineCommand"
+			body: "*"
+		};	
+	}
+	//拒绝上线
+	rpc AgvRefuseOnlineCommand(AgvOnlineStateRequest) returns(ExecuteCommandResult){
+		option (google.api.http) = {
+			post: "/AgvRefuseOnlineCommand"
+			body: "*"
+		};	
+	}
+		
+	//允许下线
+	rpc AgvOfflineStateCommand(AgvOnlineStateRequest) returns(ExecuteCommandResult){
+		option (google.api.http) = {
+			post: "/AgvOfflineStateCommand"
+			body: "*"
+		};	
+	}
+	
+	
+	rpc GetOnlineAgvPoints(GetOnlineAgvPointsRequest) returns(GetOnlineAgvPointsResult){
+		option (google.api.http) = {
+			post: "/GetOnlineAgvPoints"
+			body: "*"
+		};	
+	}
+}
+
+message SayHelloRequest{
+	string Name=1;
+}
+
+//定义返回值
+message SayHelloResult{
+	string message=1;
+}
+
+//指令(系统下发)
+message  ExecuteCommandRequest{     	
+	int32 FunctionMode   =  1 ;
+	//机器编码
+	string	AgvId   = 2;
+	//指令ID
+	int32	CodeId=3;
+	//X坐标
+	double	XCoordinate=4;
+	//Y坐标
+	double YCoordinate=5;
+	//速度
+	double	LinearSpeed=6;
+	//加速度
+	double	LinearAcceleration=7;
+	//触发时间
+	int32 Time=8;
+	//举升高度
+	double Height=9   ;
+	//升降速度
+	double Speed = 10  ;
+	//旋转角度
+	double RotationAngle=  11 ;
+	//角速度
+	double AngularVelocity=  12 ;
+	//角加速度
+	double AngularAcceleration=  13 ;
+	//X补偿
+	double	XCompensation=  14 ;
+	//Y补偿
+	double YCompensation =  15 ;
+	//角度补偿
+	double AngularCompensation =  16 ;
+	//二维码编码
+	string QrCode=   17;
+	//应答通讯序号
+	int32 ReplyNum=  18 ;
+	bytes Na=  19 ;
+	//触发距离
+	double TriggerDistance=20   ;
+	//延时时间
+	double	Delaytime=25;
+	
+	//触发模式
+	int32 TriggerMode=21;
+	//通讯地址
+	string ComAddress=22;
+	//通讯序号
+	int32 Num=24;
+
+	double ScopeProtectionFront=26;
+	double ScopeProtectionAfter=27;
+
+	//旋转方向 
+	int32 DirectionRotation=28;
+}
+//agv状态
+message ExecuteCommandResult{
+	//是否成功
+	bool Status = 1;
+	//消息
+	string Message = 2;
+	//通讯序号
+	int32 Num=3;
+}
+
+message GetOnlineAgvPointsRequest{
+	string param = 1;
+}
+//agv list
+message GetOnlineAgvPointsResult{
+
+//在线小车列表
+repeated AgvClientInfoProto  OnlineAgvlist= 1;
+}
+
+
+
+//车身信息(AGV上传)
+message AgvClientInfoProto{
+	// IP:Port         
+	string	ComAddress  =   1;
+         
+	// 上次心跳时间         
+	string HeartBeatTime    = 2  ;
+         
+	// OnlineStatus true在线 false离线           
+	int32	OnlineStatus   =  3 ;
+         
+	//运行状态
+	int32 RunningStatus   =  4 ;
+         
+	// 二维码编码         
+	string	QrCode   =  5 ;
+         
+	// X偏差       
+	double	XDeviation   = 20  ;
+	//Y偏差      
+	double	YDeviation   = 21  ;
+
+	// 上一条指令ID
+	int32 BeforeCodeId   =   6;
+         
+	// 当前指令ID
+	int32 CurrentCodeId   =   16;
+		          
+	// 缓冲数         
+	double	BufferNum   =  7 ;
+         
+	// X坐标         
+	double	XCoordinate   = 8  ;
+         
+	// Y坐标         
+	double	YCoordinate   =  9 ;
+         
+	// 车身角度         
+	double	AgvAngle   =   10;
+         
+	//货物二维码编码
+	string GoodsQrCode=19;
+	// 电量         
+	int32	AgvPower   =   11;
+
+	//充电状态
+	int32 ChargingStatus=22;
+         
+	// 举升高度         
+	double	Height   =   12;
+         
+	// 旋转角         
+	double	RotationAngle   =  13 ;
+         
+	//故障码
+	repeated int32	ListErrorCode = 14;
+
+	string	MachineCode   = 15  ;
+
+	//指令信号
+	int32	Num   = 17  ;
+
+	//回复指令序号
+	int32	ResponseNum   = 18  ;
+}
+
+
+//车辆上下线
+message AgvOnlineStateRequest{
+	//操作类型 
+	int32 OpType=1;
+
+	//机器码
+	string MachineCode=2;
+
+	//二维码
+	string QrCode=3;
+
+	// X坐标         
+	double	XCoordinate   = 4  ;
+
+	// Y坐标         
+	double	YCoordinate   =  5 ;
+
+	//应答通讯序号
+	int32 ReplyNum=6;
+
+	//通讯序号
+	int32 Num=7;
+
+	//故障码
+	int32 ErrorCode=8;
+
+	//失联判定时间
+	int32 LostInTime=9;
+
+	//掉线判定时间
+	int32 OfflineTime=10;
+	
+}

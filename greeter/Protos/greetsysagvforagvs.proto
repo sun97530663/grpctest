@@ -1,0 +1,34 @@
+
+//agv调度上位侧对所有AGV服务提供的接口
+
+syntax = "proto3";//协议版本
+
+option java_multiple_files = true;//每个文件对应单独的class文件
+//option java_package = "io.grpc.examples.sysagv";
+//option java_outer_classname = "HelloWorldProto";
+//option objc_class_prefix = "HLW";
+
+package sysagvforagvs;
+
+service GreeterSysAgvForAgvs {
+  
+	//AGV上报位置和状态信息
+	rpc UpdateAgvStstusAndPos(AgvStatusAndPos) returns (Resault) {}
+}
+
+
+//agv状态和位置
+message AgvStatusAndPos{
+
+	repeated string AgvNumber = 1;//agv编号
+	repeated int32 AgvStatus = 2;//状态
+	repeated double xPos = 3;//x位置
+	repeated double yPos = 4;//y位置
+	repeated double Angle = 5;//角度
+}
+message Resault{
+
+	int32 Code = 1;
+	string Message = 2;
+
+}

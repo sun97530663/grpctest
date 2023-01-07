@@ -1,0 +1,2 @@
+obj\Release\net5.0\Protos/Greetagvone.cs \
+obj\Release\net5.0\Protos/GreetagvoneGrpc.cs: Protos/greetagvone.proto

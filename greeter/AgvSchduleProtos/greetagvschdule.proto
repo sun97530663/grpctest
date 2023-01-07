@@ -1,0 +1,137 @@
+syntax = "proto3";
+
+option csharp_namespace = "greeter";
+import "google/api/annotations.proto";
+
+import "CommunicationProtos/greetinstructions.proto";
+import "google/protobuf/any.proto";
+
+import "google/protobuf/empty.proto";
+
+package agvschdule; //定义包名
+
+//定义服务
+//定义方法
+service greetagvschdule{
+	//运行工程
+	rpc SetCurrentProject(SetSerializeRequest) returns(HelloReply){
+		option (google.api.http) = {
+			post: "/SetCurrentProject"
+			body: "*"
+		};
+	};
+	//停止运行
+	rpc StopRunningProject(google.protobuf.Empty) returns(HelloReply){
+		option (google.api.http) = {
+			post: "/StopRunningProject"
+			body: "*"
+		};
+	};
+		
+	//同步小车信息
+	rpc SyncAgvList(InitAgvListRequest) returns(HelloReply){
+		option (google.api.http) = {
+			post: "/SyncAgvList"
+			body: "*"
+		};
+	};	
+	
+
+	//Agv上下线处理
+	rpc UpdateAgvOnlineState(HelloGrpcTest.AgvOnlineStateRequest) returns(ExecResultReply){
+		option (google.api.http) = {
+			post: "/UpdateAgvOnlineState"
+			body: "*"
+		};
+	};
+	//获取当前运行地图
+	rpc GetCurrentProjectName(google.protobuf.Empty) returns(HelloReply){
+		option (google.api.http) = {
+			post: "/GetCurrentProjectName"
+			body: "*"
+		};
+	};
+	//获取任务参数
+	rpc GetTaskVariableList(SetSerializeRequest) returns(SerializeReply){
+		option (google.api.http) = {
+			post: "/GetTaskVariableList"
+			body: "*"
+		};
+	};
+ 
+	 //创建任务
+	rpc CreateTask(CreateTaskRequest) returns(SerializeReply){
+		option (google.api.http) = {
+			post: "/CreateTask"
+			body: "*"
+		};
+	};
+	 //修改任务参数
+	rpc ChangeVariable(ChangeVariableRequest) returns(SerializeReply){
+		option (google.api.http) = {
+			post: "/ChangeVariable"
+			body: "*"
+		};
+	};
+}
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;  
+}
+message ExecResultReply {
+  bool result = 1;  
+}
+message SetSerializeRequest{
+	string content=1;
+}
+message SetSerializeByteRequest
+{
+	bytes  content=1;
+}
+message GetAgvListReply {
+	//地图ID
+	string mapID = 1;  
+}
+
+message SerializeReply{
+	string content=1;
+	bool success=2;
+}
+
+//更新车辆运行状态
+message InitAgvListRequest{
+	int32 Status   =  2 ;
+	repeated HelloGrpcTest.AgvClientInfoProto  Agvlist= 3;//小车列表
+
+}
+
+message CreateTaskRequest{
+	    //外接系统标识
+        string SysToken=1;
+        // 第三方单据编码        
+        string ReceiveCode= 2;       
+        // 地图编码       
+        string MapCode =3;		
+        // 任务模板编码
+        string TaskTemplateCode =4;
+		// 调度组编码
+		string AgvGroupCode=5;
+		//变量集合
+		repeated TaskVariableProto Variables=6;
+}
+message TaskVariableProto{
+	    // 变量名        
+        string Code= 1;       
+        // 值       
+        string Value =2;		
+}
+
+message ChangeVariableRequest{
+	   //地图编码
+	   string MapCode=1;
+	   //任务编码
+	   string ReceiveTaskID =2;
+	   string MakeTaskID=3;
+	   //变量集合
+		repeated TaskVariableProto Variables=4;
+}

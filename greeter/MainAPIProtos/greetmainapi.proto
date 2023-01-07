@@ -1,0 +1,71 @@
+syntax = "proto3";//协议版本
+
+option csharp_namespace = "greeter";//命名空间一般是项目名
+import "AgvSchduleProtos/greetagvschdule.proto";
+import "google/api/annotations.proto";
+package sysmainapi;//指定服务名称的前缀，指定服务名称的唯一性
+
+// The greeting service definition.
+service greetsysmainapi {
+  // Sends a greeting
+  rpc SayHello5 (HelloRequest5) returns (HelloReply5);
+ 
+	
+
+  //同步小车信息
+  rpc SyncAgvList(SyncAgvListRequest) returns(agvschdule.HelloReply){
+	  option (google.api.http) = {
+		  post: "/SyncAgvList"
+		  body: "*"
+	  };
+  };	
+}
+
+
+// The request message containing the user's name.
+message HelloRequest5 {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply5 {
+  string message = 1;
+}
+message SyncAgvListRequest{
+	string  MapID = 1; 
+	repeated AgvShowInfoProto AgvList=2;
+}
+message AgvShowInfoProto
+{
+	//机器码
+	string MachineCode=1;
+	//车辆名称
+	string Name=2;
+	// 二维码编码         
+	string	QrCode   =  3 ;
+	// X坐标         
+	double	XCoordinate   = 4  ;         
+	// Y坐标         
+	double	YCoordinate   =  5 ;
+	// 车身角度         
+	double	AgvAngle   =   6;
+	//货物二维码编码
+	string GoodsQrCode=7;
+	// 电量         
+	int32	AgvPower   =   8;
+    // 缓冲数         
+	double	BufferNum   =  9 ;
+	// 举升高度         
+	double	Height   =   10;
+	//调度状态
+	string SchduleState=11;
+	//Agv状态
+	string	AgvState   = 12  ;
+	//在线状态
+	int32 OnlineStatus = 13;
+	//错误码
+	string	ErrorCode = 14;
+	//错误信息
+	string  ErrorInfo=15;
+
+}

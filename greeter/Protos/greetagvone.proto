@@ -1,0 +1,105 @@
+
+//agv侧的接口文件
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.agvone";
+option java_outer_classname = "HelloWorldProto";
+option objc_class_prefix = "HLW";
+
+package agvone;
+
+// agv端服务接口的定义
+service GreeterAgvOne {
+  // Sends a greeting
+	rpc SayHello (HelloRequest) returns (HelloReply) {}
+	//发送和返回只能有一个参数
+	rpc MovePointToPoint (MoveParam) returns (MoveStatus) {}//从某个点移动到某个点
+	rpc GetSlamMap(SlamParam) returns (stream SlamInfo){}//服务端流,//获取slam地图
+	rpc SendTask(stream TaskInfo) returns (TaskStatus){}//客户端流，下发任务
+	rpc ChangeStatus(stream DispatchStatus) returns (stream AgvStatus){}//双端流，交换状态
+
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+  int64 index = 2;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
+//移动信息
+message MoveParam
+{
+	enum DataType{
+		MoveL = 0;
+		MoveC = 1;
+	}
+
+	DataType datatype = 1;
+	//单个点信息
+	oneof dataBody{//oneof允许其中一个被赋值，应该也可以拿到外面
+	
+		FromPoint frompoint = 2;
+		ToPoint topoint = 3;
+	}
+	repeated SPoint  pointlist= 4;//点列表
+
+}
+//起始点
+message FromPoint{
+	double x =1;
+	double y = 2;
+}
+//到达点
+message ToPoint{
+	double x=1;
+	double y=2;
+}
+//点列表信息结构体
+message SPoint{
+
+	string pointname =1;
+	double pointx = 2;
+	double pointy = 3;
+
+}
+//移动状态
+message MoveStatus{
+
+	bool ststus = 1;
+}
+
+//salm参数
+message SlamParam{
+
+	int32 index = 1;
+}
+//slam地图信息
+message SlamInfo{
+	//后面测试bytes
+	string data = 1;
+}
+//任务信息
+message TaskInfo{
+
+	int32 taskIndex = 1;
+	string taskName = 2;
+}
+//任务状态
+message TaskStatus{
+
+	bool taskStatus = 1;
+}
+//调度状态
+message DispatchStatus{
+
+	int32 dispatchStatus = 1; 
+}
+//agv状态
+message AgvStatus{
+	int32 AgvStatus = 1;
+}

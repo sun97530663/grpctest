@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/Greetsysagv.cs \
+obj\Debug\net5.0\Protos/GreetsysagvGrpc.cs: Protos/greetsysagv.proto

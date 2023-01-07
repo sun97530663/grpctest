@@ -1,0 +1,9 @@
+obj\Debug\net5.0\MainAPIProtos/Greetmainapi.cs \
+obj\Debug\net5.0\MainAPIProtos/GreetmainapiGrpc.cs: google/api/http.proto\
+ C:/Users/Administrator/.nuget/packages/grpc.tools/2.44.0/build/native/include/google/protobuf/descriptor.proto\
+ google/api/annotations.proto\
+ CommunicationProtos/greetinstructions.proto\
+ C:/Users/Administrator/.nuget/packages/grpc.tools/2.44.0/build/native/include/google/protobuf/any.proto\
+ C:/Users/Administrator/.nuget/packages/grpc.tools/2.44.0/build/native/include/google/protobuf/empty.proto\
+ AgvSchduleProtos/greetagvschdule.proto\
+ MainAPIProtos/greetmainapi.proto

@@ -1,0 +1,2 @@
+obj\Release\net5.0\Protos/Greetdispatch.cs \
+obj\Release\net5.0\Protos/GreetdispatchGrpc.cs: Protos/greetdispatch.proto
